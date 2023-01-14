@@ -1,0 +1,10 @@
+---
+layout: default
+title: Policies
+---
+
+<ul class="news list-unstyled">
+{% for post in site.policies %}
+    {% include policy-item.html item=post %}
+{% endfor %}
+</ul>

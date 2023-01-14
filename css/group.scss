@@ -77,8 +77,8 @@ ul.news {
 }
 
 @media (min-width: 768px) {
-    .role.grad      { column-count: 1 }
-    .role.ugrad     { column-count: 3}
+    .role.grad      { column-count: 2 }
+    .role.ugrad     { column-count: 3 }
     .project-people { column-count: 3 }
     .card-columns   { column-count: 3 }
 }
@@ -106,10 +106,22 @@ section {
 }
 
 .card {
+    min-height: 250px;
 
     .profile {
         height: 40px;
         width: 40px;
+        margin: 3px;
+    }
+
+    .slides-link {
+        height: 55px;
+        width: 60px;
+        margin: 3px;
+    }
+
+    .labs-link {
+        height: 55px;
         margin: 3px;
     }
 

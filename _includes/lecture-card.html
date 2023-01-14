@@ -1,0 +1,72 @@
+
+{% assign lecture = include.lecture %}
+
+{% if lecture.link %}
+    {% assign lec-url = lecture.link %}
+{% else %}
+    {% capture lec-url %}{{site.base}}{{lecture.url}}.html{% endcapture %}
+{% endif %}
+
+
+
+<div class="card">
+    <div class="card-body">
+        {% if lecture.image %}
+            {% assign imgurl = lecture.image %}
+            {% capture init %}{{ lecture.image | slice: 0,1 }}{% endcapture %}
+            {% if init == "/" %}
+                {% capture imgurl %}{{site.base}}{{lecture.image}}{% endcapture %}
+            {% endif %}
+            <a href="{{ lec-url }}">
+                <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{lecture.title}}"/>
+            </a>
+        {% endif %}
+        {% if lecture.notitle != true %}
+            <h4 class="card-title">
+                {{  lecture.title }}
+            </h4>
+        {% endif %}
+        {% if lecture.subtitle != null and lecture.subtitle != "" %}
+            <h6 class="card-subtitle mb-2 text-muted">
+                {{  lecture.subtitle }}
+            </h6>
+        {% endif %}
+        <div class="card-text">
+            {{ lecture.description | markdownify }}
+        </div>
+        {% if lecture.no-link != true or lecture.link %}
+            <a href="{{ lec-url }}"> Read more &raquo;</a>
+        {% endif %}
+    </div>
+    {% if lecture.link-slides or lecture.link-scribbles or lecture.link-recording%}
+    <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+        {% if lecture.link-slides %}
+        <a href="{{ site.base }}{{ lecture.link-slides }}"
+            style="text-decoration: none">
+            <img class="slides-link"
+                alt="{{ lecture.title }}"
+                title="{{ lecture.title }} Slides (Clean)"
+                src="{{ site.base }}/img/icons/slide_clean.png" />
+        </a> 
+        {% endif %}
+        {% if lecture.link-scribbles %}
+        <a href="{{ site.base }}{{ lecture.link-scribbles }}"
+            style="text-decoration: none">
+            <img class="slides-link"
+                alt="{{ lecture.title }}"
+                title="{{ lecture.title }} Slides (Scribble)"
+                src="{{ site.base }}/img/icons/slide_scribble.png" />
+        </a> 
+        {% endif %}
+        {% if lecture.link-recording %}
+        <a href="{{ lecture.link-recording }}"
+            style="text-decoration: none">
+            <img class="slides-link"
+                alt="{{ lecture.title }}"
+                title="{{ lecture.title }} Recording"
+                src="{{ site.base }}/img/icons/recording.png" />
+        </a> 
+        {% endif %}
+    </div>
+    {% endif %}
+</div>

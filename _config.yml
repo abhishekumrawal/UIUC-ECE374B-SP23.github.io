@@ -1,5 +1,5 @@
-name: Mathematical Language Processing Group
-url: http://mlpgroup.com
+name: ECE374-B SP23
+url: http://UIUC-ECE374B-SP23.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -15,14 +15,14 @@ roles:
     name: Faculty
   # - key: staff
   #   name: Staff
-  - key: postdoc
-    name: Researchers
+  # - key: postdoc
+  #   name: Researchers
   - key: grad
-    name: Graduate Students
+    name: Graduate Teaching Assisatnts
   - key: ugrad
-    name: Undergraduate Students
-  - key: ugrad-alum
-    name: Past Undergraduate Students
+    name: Undergraduate Teaching Assistants
+  # - key: ugrad-alum
+  #   name: Past Undergraduate Students
   # - key: collab
   #   name: Collaborators
   # - key: alum
@@ -34,11 +34,15 @@ front_page_news: 4
 # Base pathname for links.
 base: ''
 
-# make pages for the _projects folder
+# make pages for the colections
 collections:
-  projects:
+  lectures:
+    output: true
+  labs:
     output: true
   resources:
+    output: true
+  policies: 
     output: true
 
 # Navigation bar links.
@@ -47,13 +51,11 @@ navigation:
     link: /
   # - title: People
   #   link: /people.html
-  - title: Research
-    link: /research.html
+  - title: Schedule
+    link: /schedule.html
+  - title: Lectures and Labs
+    link: /lectures.html    
+  - title: Policies
+    link: /policies.html
   - title: News
-    link: /blog.html    
-  - title: Resources
-    link: /resources.html    
-  - title: Publications
-    link: /publications.html
-  - title: Code
-    link: /code.html
+    link: /blog.html       

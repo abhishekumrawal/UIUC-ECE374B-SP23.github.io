@@ -1,5 +1,6 @@
 kani:
     display_name: "Nickvash Kani"
+    netid: kani
     webpage: "https://nickvashkani.com"
     github: NickvashKani
     role: faculty
@@ -25,62 +26,198 @@ kani:
 #     role: grad
 #     image: /img/people/storm.png
 
-emma:
-    display_name: "Emma Hamel"
-    webpage: "https://github.com/emhamel"
-    github: emhamel
-    role: postdoc
-    image: /img/people/Emma.jpg
-    bio: Alumni Research Assistant
+# emma:
+#     display_name: "Emma Hamel"
+#     webpage: "https://github.com/emhamel"
+#     github: emhamel
+#     role: postdoc
+#     image: /img/people/Emma.jpg
+#     bio: Alumni Research Assistant
 
-neeraj:
-    display_name: "Neeraj Gangwar"
-    webpage: "https://neerajgangwar.com/"
-    github: neerajgangwar
+
+#### Graduate Teaching Assisatnts
+sungwoo:
+    display_name: "Sung Woo Jeon"
+    netid: sjeon2
+    webpage: "https://google.com/"
+    github: 
     role: grad
-    image: /img/people/neeraj.jpg
-    bio: Graduate Research Assistant
+    image: /img/people/anon-male.jpg
+    bio: Graduate Teaching Assistant
 
-hongbo:
-    display_name: "Hongbo Zheng"
-    webpage: "https://www.linkedin.com/in/hongbo-zheng-b088581b6"
+nicholas:
+    display_name: "Nicholas Bampton"
+    netid: bampton2
+    webpage: "https://google.com/"
+    github: 
+    role: grad
+    image: /img/people/anon-male.jpg
+    bio: Graduate Teaching Assistant
+
+gautham:
+    display_name: "Gautham Varma"
+    netid: gvarma2
+    webpage: "https://google.com/"
+    github: 
+    role: grad
+    image: /img/people/anon-male.jpg
+    bio: Graduate Teaching Assistant
+
+someguy1:
+    display_name: "Some Guy"
+    netid: someguy
+    webpage: "https://google.com/"
+    github: 
+    role: grad
+    image: /img/people/anon-male.jpg
+    bio: Graduate Teaching Assistant
+
+someguy2:
+    display_name: "Another Guy"
+    netid: anotherguy
+    webpage: "https://google.com/"
+    github: 
+    role: grad
+    image: /img/people/anon-male.jpg
+    bio: Graduate Teaching Assistant
+
+
+
+### Undergraduate TAs
+kevin:
+    display_name: "Kevin Lim"
+    netid: wzlim2
+    webpage: ""
     github: 
     role: ugrad
-    image: /img/people/hongbo.jpeg
-    bio: Undergraduate Researcher    
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant  
+
+erin:
+    display_name: "Erin Kim"
+    netid: erinkim4
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant  
 
 weiyang:
     display_name: "Weiyang Wang"
+    netid: weiyang7
     webpage: "google.com"
     github: 
     role: ugrad
     image: /img/people/weiyang.jpeg
-    bio: Undergraduate Researcher
+    bio: Undergraduate Course Assistant
 
 ayu:
     display_name: "Ayu Seiya"
+    netid: aseiya2
     webpage: "https://www.linkedin.com/in/ayu-seiya-88509722b"
     github: 
     role: ugrad
     image: /img/people/ayu.jpg
-    bio: Undergraduate Researcher        
+    bio: Undergraduate Course Assistant        
 
 rubin:
     display_name: "Rubin Zou"
+    netid: jiaruz2
     webpage: "https://www.linkedin.com/in/jiaru-zou-67434a21a/"
     github: MP-killer
     role: ugrad
     image: /img/people/rubin.jpg
-    bio: Undergraduate Researcher        
+    bio: Undergraduate Course Assistant        
 
 qing:
     display_name: "Qing Wang"
+    netid: qingw3
     webpage: "https://github.com/Kingcela/variable_extraction"
     github: Kingcela
     role: ugrad
     image: /img/people/qing.jpg
-    bio: Undergraduate Researcher
+    bio: Undergraduate Course Assistant
 
+zikui:
+    display_name: "Zikui Wang"
+    netid: zikuiw2
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+jeep:
+    display_name: "Jeep Kaewla"
+    netid: ckaewla2
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-female.jpg
+    bio: Undergraduate Course Assistant    
+
+maxm:
+    display_name: "Max Montano"
+    netid: montano3
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+sumedh:
+    display_name: "Sumedh Vemuganti"
+    netid: sumedh2
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+sahil:
+    display_name: "Sahil Kamboj"
+    netid: skamboj3
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+sarthak:
+    display_name: "Sarthak Kamboj"
+    netid: skamboj2
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+hamza:
+    display_name: "Hamza Husain"
+    netid: mhusain3
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+maxs:
+    display_name: "Max Shepherd"
+    netid: maxes2
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+kaifeng:
+    display_name: "Kaifeng Lin"
+    netid: kaifeng6
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
 
 # alum-a:
 #     display_name: "Alum A"

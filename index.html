@@ -9,10 +9,7 @@ role-tables:
     width: 4
     image: true
   - roles: [grad]
-    width: 4
-    image: true
-  - roles: [postdoc]
-    width: 4
+    width: 8
     image: true
 - - roles: [ugrad]
     width: 12
@@ -40,22 +37,6 @@ role-tables:
             <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
         </p>
     {% endif %}
-</section>
-
-<section>
-    <h2>Research</h2>
-    <div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
-    </div>
 </section>
 
 <div id="people">
