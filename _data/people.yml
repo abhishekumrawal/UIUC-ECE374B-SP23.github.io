@@ -64,21 +64,21 @@ gautham:
     bio: Graduate Teaching Assistant
 
 someguy1:
-    display_name: "Some Guy"
-    netid: someguy
+    display_name: "Sindu Vydana"
+    netid: svydana2
     webpage: "https://google.com/"
     github: 
     role: grad
-    image: /img/people/anon-male.jpg
+    image: /img/people/anon-female.jpg
     bio: Graduate Teaching Assistant
 
 someguy2:
-    display_name: "Another Guy"
-    netid: anotherguy
+    display_name: "Sandhya Perumenki"
+    netid: sp84
     webpage: "https://google.com/"
     github: 
     role: grad
-    image: /img/people/anon-male.jpg
+    image: /img/people/anon-female.jpg
     bio: Graduate Teaching Assistant
 
 
