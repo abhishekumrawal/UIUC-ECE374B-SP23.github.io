@@ -1,5 +1,8 @@
 ---
 title: Lecture 1 - Course introduction and lanuages
+placeholder: false
+back-color: fffaff
+card-link: LecLink1
 # subtitle: And a subtitle
 description: This is the first lecture of the course. We'll discuss the course policies and why we model problems as languages.  
 people:

@@ -51,10 +51,10 @@ navigation:
     link: /
   # - title: People
   #   link: /people.html
-  - title: Schedule
-    link: /schedule.html
   - title: Lectures and Labs
     link: /lectures.html    
+  - title: Homeworks
+    link: /homeworks.html
   - title: Policies
     link: /policies.html
   - title: News

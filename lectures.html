@@ -21,13 +21,13 @@ title: Lectures and labs
 
 
 <section class="people row justify-content-between">
-    <div class="col-md-8">
+    <div class="col-md-7">
         <h3 class="pt-3"> Lectures </h3>
         {% for l in lectures_by_date %}
             {% include lecture-card.html lecture=l %}
         {% endfor %}
     </div>
-    <div class="col-md-4">
+    <div class="col-md-5">
         <h3 class="pt-3"> Labs </h3>
         {% for l in labs_by_date %}
             {% include lab-card.html lecture=l %}

@@ -8,35 +8,65 @@
 {% endif %}
 
 
+{% if lecture.placeholder %}
 
-<div class="card">
-    <div class="card-body">
-        {% if lecture.image %}
-            {% assign imgurl = lecture.image %}
-            {% capture init %}{{ lecture.image | slice: 0,1 }}{% endcapture %}
-            {% if init == "/" %}
-                {% capture imgurl %}{{site.base}}{{lecture.image}}{% endcapture %}
-            {% endif %}
-            <a href="{{ lec-url }}">
-                <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{lecture.title}}"/>
-            </a>
-        {% endif %}
-        {% if lecture.notitle != true %}
-            <h4 class="card-title">
+<div class="card" style="background-color: #{{ lecture.back-color }};">
+    <div class="row align-items-center" style="padding-top: 70px;">
+        <div class="col-md-7 text-right">
+            <h1 class="card-title">
                 {{  lecture.title }}
-            </h4>
-        {% endif %}
-        {% if lecture.subtitle != null and lecture.subtitle != "" %}
-            <h6 class="card-subtitle mb-2 text-muted">
+            </h1>
+            <h3 class="card-subtitle mb-2 text-muted">
                 {{  lecture.subtitle }}
-            </h6>
-        {% endif %}
-        <div class="card-text">
-            {{ lecture.description | markdownify }}
+            </h3>
         </div>
-        {% if lecture.no-link != true or lecture.link %}
-            <a href="{{ lec-url }}"> Read more &raquo;</a>
-        {% endif %}
+        <div class="col-md-5">
+            <div class="date-icon">
+                <p> {{ lecture.deliverydate | date: "%d" }} <span> {{ lecture.deliverydate | date: "%b" }} </span></p>
+            </div>        
+        </div>
+    </div>
+</div>    
+
+{% else %}
+
+<div class="card" style="background-color: #{{ lecture.back-color }};">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="card-body">
+                {% if lecture.image %}
+                    {% assign imgurl = lecture.image %}
+                    {% capture init %}{{ lecture.image | slice: 0,1 }}{% endcapture %}
+                    {% if init == "/" %}
+                        {% capture imgurl %}{{site.base}}{{lecture.image}}{% endcapture %}
+                    {% endif %}
+                    <a href="{{ lec-url }}">
+                        <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{lecture.title}}"/>
+                    </a>
+                {% endif %}
+                {% if lecture.notitle != true %}
+                    <h4 class="card-title">
+                        {{  lecture.title }}
+                    </h4>
+                {% endif %}
+                {% if lecture.subtitle != null and lecture.subtitle != "" %}
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        {{  lecture.subtitle }}
+                    </h6>
+                {% endif %}
+                <div class="card-text">
+                    {{ lecture.description | markdownify }}
+                </div>
+                {% if lecture.no-link != true or lecture.link %}
+                    <a href="{{ lec-url }}"> Read more &raquo;</a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-md-2 align-self-center">
+            <div class="date-icon">
+                <p> {{ lecture.deliverydate | date: "%d" }} <span> {{ lecture.deliverydate | date: "%b" }} </span></p>
+            </div>
+        </div>
     </div>
     {% if lecture.link-slides or lecture.link-scribbles or lecture.link-recording%}
     <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
@@ -70,3 +100,5 @@
     </div>
     {% endif %}
 </div>
+
+{% endif %}

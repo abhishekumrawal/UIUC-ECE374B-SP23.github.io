@@ -1,6 +1,8 @@
 ---
 title: No Lab
-valid: false
+subtitle: Winter is coming
+placeholder: true
+back-color: fafafa
 # subtitle: And a subtitle
 
 description: #This is the first disucssion of the course. With your TAs, you will discuss how to  

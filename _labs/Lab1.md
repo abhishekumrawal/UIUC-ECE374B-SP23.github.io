@@ -1,9 +1,10 @@
 ---
 title: Lab 1 - Languages and regular expressions
-valid: true
+placeholder: false
+back-color: fafaf4
 # subtitle: And a subtitle
 
-description: Languages and regular expressions
+description: Problems as languages <br> Regular expressions. 
 
 people:
   - kani
