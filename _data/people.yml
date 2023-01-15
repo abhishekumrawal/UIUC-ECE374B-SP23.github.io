@@ -39,16 +39,16 @@ kani:
 sungwoo:
     display_name: "Sung Woo Jeon"
     netid: sjeon2
-    webpage: "https://google.com/"
-    github: 
+    webpage: "https://www.linkedin.com/in/sung-woo-jeon-26a06524a/"
+    github: al0wner
     role: grad
-    image: /img/people/anon-male.jpg
+    image: /img/people/sung.jpg
     bio: Graduate Teaching Assistant
 
 nicholas:
     display_name: "Nicholas Bampton"
     netid: bampton2
-    webpage: "https://google.com/"
+    webpage: ""
     github: 
     role: grad
     image: /img/people/anon-male.jpg
@@ -57,28 +57,28 @@ nicholas:
 gautham:
     display_name: "Gautham Varma"
     netid: gvarma2
-    webpage: "https://google.com/"
-    github: 
+    webpage: "https://www.linkedin.com/in/gauthamvarma1997/"
+    github: VarmaGautham
     role: grad
-    image: /img/people/anon-male.jpg
+    image: /img/people/gautham.jpg
     bio: Graduate Teaching Assistant
 
-someguy1:
+sindu:
     display_name: "Sindu Vydana"
     netid: svydana2
-    webpage: "https://google.com/"
-    github: 
+    webpage: "https://linkedin.com/in/sindhu-vydana/"
+    github: vydanasindhu
     role: grad
-    image: /img/people/anon-female.jpg
+    image: /img/people/sindu.jpeg
     bio: Graduate Teaching Assistant
 
-someguy2:
+sandhya:
     display_name: "Sandhya Perumenki"
     netid: sp84
-    webpage: "https://google.com/"
+    webpage: "https://www.linkedin.com/in/sandhya-rao-p"
     github: 
     role: grad
-    image: /img/people/anon-female.jpg
+    image: /img/people/sandhya.jpeg
     bio: Graduate Teaching Assistant
 
 
@@ -105,7 +105,7 @@ erin:
 weiyang:
     display_name: "Weiyang Wang"
     netid: weiyang7
-    webpage: "google.com"
+    webpage: ""
     github: 
     role: ugrad
     image: /img/people/weiyang.jpeg
@@ -213,10 +213,10 @@ maxs:
 kaifeng:
     display_name: "Kaifeng Lin"
     netid: kaifeng6
-    webpage: ""
-    github: 
+    webpage: "https://www.linkedin.com/in/kaifeng-lin-sde"
+    github: kefinlin
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/kaifeng.jpg
     bio: Undergraduate Course Assistant
 
 # alum-a:
