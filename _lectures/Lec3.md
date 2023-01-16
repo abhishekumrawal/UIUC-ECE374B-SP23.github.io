@@ -1,18 +1,27 @@
 ---
 title: Lecture 3 - Deterministic finite automata (DFAs)
 placeholder: false
-back-color: fffffa
+back-color: faffff
 card-link: LecLink3
 # subtitle: And a subtitle
-
-description: This lecture begins our investgation into automata theory. Specifically we will discuss deterministic finite automata (DFAs) and how they represent regular languages. 
-
+description:
 people:
-  - kani
-
-layout: post
-# no-link: true
-deliverydate: 2023-09-24
+layout: lecture
+# no-link: true  # stops link to page 
+deliverydate: 2023-01-24
+link-slides:
+link-scribbles:
+link-recording:
 ---
 
-Notes on lecture 2
+Nothing so far.....
+
+<h4>Additional Resources</h4>
+
+
+
+
+
+
+
+

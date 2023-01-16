@@ -1,7 +1,7 @@
 ---
-title: Lecture 1 - Course introduction and lanuages
+title: Lecture 1 - Course introduction and languages
 placeholder: false
-back-color: fffaff
+back-color: faffff
 card-link: LecLink1
 # subtitle: And a subtitle
 description: This is the first lecture of the course. We'll discuss the course policies and why we model problems as languages.  
@@ -15,4 +15,6 @@ link-scribbles: /lecture_slides/Lec1-fa21.pdf
 link-recording: https://www.youtube.com
 ---
 
-Notes on lecture 1
+Nothing so far.....
+
+<h4>Additional Resources</h4>

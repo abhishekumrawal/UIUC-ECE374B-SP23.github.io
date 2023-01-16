@@ -55,7 +55,9 @@ navigation:
     link: /lectures.html    
   - title: Homeworks
     link: /homeworks.html
+  - title: Exams
+    link: /exams.html    
   - title: Policies
     link: /policies.html
-  - title: News
-    link: /blog.html       
+  - title: Schedules
+    link: /office_hours.html       

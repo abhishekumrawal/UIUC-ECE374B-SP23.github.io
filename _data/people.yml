@@ -51,7 +51,7 @@ nicholas:
     webpage: ""
     github: 
     role: grad
-    image: /img/people/anon-male.jpg
+    image: /img/people/nicholas.jpg
     bio: Graduate Teaching Assistant
 
 gautham:
@@ -159,10 +159,10 @@ jeep:
 maxm:
     display_name: "Max Montano"
     netid: montano3
-    webpage: ""
+    webpage: "https://www.linkedin.com/in/mike-montano-680aa6230/"
     github: 
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/mike.jpg
     bio: Undergraduate Course Assistant
 
 sumedh:
@@ -196,9 +196,9 @@ hamza:
     display_name: "Hamza Husain"
     netid: mhusain3
     webpage: ""
-    github: 
+    github: hamza14102
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/hamza.jpg
     bio: Undergraduate Course Assistant
 
 maxs:

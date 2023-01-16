@@ -1,14 +1,14 @@
 ---
-title: Lecture 2 - Languages and regular expression
+title: Lecture 7 - Context-Free Languages and Push-down Automata
 placeholder: false
 back-color: faffff
-card-link: LecLink2
+card-link: LecLink7
 # subtitle: And a subtitle
 description:
 people:
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-01-19
+deliverydate: 2023-02-07
 link-slides:
 link-scribbles:
 link-recording:

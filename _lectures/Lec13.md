@@ -1,14 +1,14 @@
 ---
-title: Lecture 2 - Languages and regular expression
+title: Lecture 13 - Dynamic programming I
 placeholder: false
-back-color: faffff
-card-link: LecLink2
+back-color: fffffa
+card-link: LecLink13
 # subtitle: And a subtitle
 description:
 people:
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-01-19
+deliverydate: 2023-03-02
 link-slides:
 link-scribbles:
 link-recording:

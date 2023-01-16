@@ -1,14 +1,14 @@
 ---
-title: Lecture 2 - Languages and regular expression
+title: Lecture 12 - Backtracking
 placeholder: false
-back-color: faffff
-card-link: LecLink2
+back-color: fffffa
+card-link: LecLink12
 # subtitle: And a subtitle
 description:
 people:
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-01-19
+deliverydate: 2023-02-28
 link-slides:
 link-scribbles:
 link-recording:

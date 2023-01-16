@@ -1,14 +1,14 @@
 ---
-title: Lecture 2 - Languages and regular expression
+title: Lecture 9 - Universal turing machines
 placeholder: false
 back-color: faffff
-card-link: LecLink2
+card-link: LecLink9
 # subtitle: And a subtitle
 description:
 people:
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-01-19
+deliverydate: 2023-02-14
 link-slides:
 link-scribbles:
 link-recording:

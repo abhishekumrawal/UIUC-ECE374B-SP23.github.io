@@ -1,14 +1,14 @@
 ---
-title: Lecture 2 - Languages and regular expression
+title: Lecture 18 - Shortest paths II - Bellman-Ford and Floyd-Warshall
 placeholder: false
-back-color: faffff
-card-link: LecLink2
+back-color: fffffa
+card-link: LecLink18
 # subtitle: And a subtitle
 description:
 people:
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-01-19
+deliverydate: 2023-03-28
 link-slides:
 link-scribbles:
 link-recording:
