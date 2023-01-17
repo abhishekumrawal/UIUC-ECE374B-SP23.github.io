@@ -4,7 +4,7 @@ placeholder: false
 back-color: faffff
 card-link: LecLink2
 # subtitle: And a subtitle
-description:
+description: We'll discuss regular languages and representing them as regular expressions (the OG RegEx). 
 people:
 layout: lecture
 # no-link: true  # stops link to page 
