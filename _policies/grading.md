@@ -52,7 +52,7 @@ Extra credit (which would given completely in the discretion of the instructors)
 
 - Being in the top few participants on piazza. (As long as most of your answers are useful and correct [and add to the current discussion {i.e., don't repost others answers just to increase your count}] - a campaign of disinformation on piazza would gain you little.)
 - Taking on small, interesting problem/research challenges I may post to Piazza.
-- Extra credit is onyl given to people that have completed *significantly* more work than is required for this course. 
+- Extra credit is only given to people that have completed *significantly* more work than is required for this course. Significant means tens of hours of solid work/effort.
 
 
 
