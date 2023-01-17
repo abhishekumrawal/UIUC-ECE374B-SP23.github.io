@@ -262,6 +262,16 @@ Couple things to note about homeworks:
     - Group names+netids
 - **We will not accept late homework for any reason.** To offset this rather draconian policy, we will count only the homework problems you actually submit toward your final course grade. 
 
+### Homework Grading Policies: 
+
+- **Homeworks** are graded by the entire course staff, within Gradescope. All numbered homework problems are worth the same amount. Under normal circumstances, all homework should be graded within two weeks of submission.
+- Partial credit is given for work that is very close to being correct. 
+- **We will give zero points for long and tedious solutions** (i.e., solutions that are longer than the official solutions by a significant amount). We reserve the right of not even reading your solution if it exceedingly and unnecessarily long. If your solutions seems too long - rewrite it to be short and precise. 
+- This semester I amm limiting solutions text to be **300 words long max** per problem. It is incredibly important to be able to convey complex idea as concisely as possible and I think this is good practice. I highly suggest using figures(flowcharts, graphics)/equations(useful for recurrences) to cut down on the word vomit. 
+>If I had more time, I would have written a shorter letter. 
+><cite> - [Unknown](https://www.lb7.uscourts.gov/documents/314-cv-921.pdf) <cite>
+
+
 ### Regrades
 
 Regrades requests would be open for a week once grades are released (except for final exam). Regrade requests are not intended for arguing about point allocation, or whether or not the grading scale is fair.

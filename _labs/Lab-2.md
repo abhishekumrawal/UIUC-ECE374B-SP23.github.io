@@ -1,6 +1,6 @@
 ---
 title: No Lab
-subtitle: Post MT break
+subtitle: Post MT1 break
 placeholder: true
 back-color: fafafa
 # subtitle: And a subtitle

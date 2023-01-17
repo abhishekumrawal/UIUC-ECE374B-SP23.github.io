@@ -38,7 +38,7 @@ kani:
 #### Graduate Teaching Assisatnts
 sungwoo:
     display_name: "Sung Woo Jeon"
-    netid: sjeon2
+    netid: sjeon12
     webpage: "https://www.linkedin.com/in/sung-woo-jeon-26a06524a/"
     github: al0wner
     role: grad
@@ -64,7 +64,7 @@ gautham:
     bio: Graduate Teaching Assistant
 
 sindu:
-    display_name: "Sindu Vydana"
+    display_name: "Sindhu Vydana"
     netid: svydana2
     webpage: "https://linkedin.com/in/sindhu-vydana/"
     github: vydanasindhu
@@ -174,14 +174,14 @@ sumedh:
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
 
-sahil:
-    display_name: "Sahil Kamboj"
-    netid: skamboj3
-    webpage: ""
-    github: 
-    role: ugrad
-    image: /img/people/anon-male.jpg
-    bio: Undergraduate Course Assistant
+# sahil:
+#     display_name: "Sahil Kamboj"
+#     netid: skamboj3
+#     webpage: ""
+#     github: 
+#     role: ugrad
+#     image: /img/people/anon-male.jpg
+#     bio: Undergraduate Course Assistant
 
 sarthak:
     display_name: "Sarthak Kamboj"
@@ -204,10 +204,10 @@ hamza:
 maxs:
     display_name: "Max Shepherd"
     netid: maxes2
-    webpage: ""
+    webpage: "https://www.linkedin.com/in/max-shepherd-546b001b5"
     github: 
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/max.png
     bio: Undergraduate Course Assistant
 
 kaifeng:
