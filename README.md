@@ -1,4 +1,4 @@
-This is the official website of ECE374-B at the University of Illinois at Urbana-Champaign. This site is built on the Sampa research group website template whose information can be seen below. Huge thanks to the Sampa group for this website template.
+This is the official website of ECE374-B at the University of Illinois at Urbana-Champaign for the Spring 2023 semester. This site is built on the Sampa research group website template whose information can be seen below. Huge thanks to the Sampa group for this website template.
 
 This website is a culmination of a lot of different code/design snippets from a lot of different authors. These include: 
 
@@ -8,6 +8,8 @@ This website is a culmination of a lot of different code/design snippets from a 
 - Data styling in lecture/lab page from [Line25](https://line25.com/tutorials/how-to-create-a-cool-blog-post-date-icon-with-css/)
 - Button styling from [W3Schools](https://www.w3schools.com/css/css3_buttons.asp)
 - Date formatting from [Alan Smith](https://www.alanwsmith.com/posts/jekyll-and-github-pages-liquid-date-formatting-examples--20emx2csq8do)
+
+
 And above all, most of the materials are adapted from prior worksfrom all the prior 374 instructors: 
 - [Sariel Har-Peled](https://sarielhp.org/)
 - [Andrew Miller](https://soc1024.ece.illinois.edu/)

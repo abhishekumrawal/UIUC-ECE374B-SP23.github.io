@@ -16,4 +16,3 @@ deliverydate: 2023-02-16 #last updated date
 # link-recording: https://www.youtube.com
 ---
 
-Notes on lecture 1
