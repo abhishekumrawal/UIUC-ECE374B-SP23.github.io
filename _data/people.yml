@@ -150,10 +150,10 @@ zikui:
 jeep:
     display_name: "Jeep Kaewla"
     netid: ckaewla2
-    webpage: ""
+    webpage: "https://www.linkedin.com/in/chayanid-kaewla/"
     github: 
     role: ugrad
-    image: /img/people/anon-female.jpg
+    image: /img/people/jeep.jpg
     bio: Undergraduate Course Assistant    
 
 maxm:
