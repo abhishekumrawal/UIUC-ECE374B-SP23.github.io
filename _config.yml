@@ -18,7 +18,7 @@ roles:
   # - key: postdoc
   #   name: Researchers
   - key: grad
-    name: Graduate Teaching Assisatnts
+    name: Graduate Teaching Assistants
   - key: ugrad
     name: Undergraduate Teaching Assistants
   # - key: ugrad-alum
