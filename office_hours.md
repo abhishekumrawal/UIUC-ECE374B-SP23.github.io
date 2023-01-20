@@ -37,7 +37,7 @@ Under Construction. There will be no office hours the first week (use Piazza). W
     <td> BYA </td>
     <td> 10:00AM - 10:50AM </td>
     <td> Gautham </td>
-    <td> 2055 Sidney Lu MechE </td>
+    <td> 2055 Sidney Lu MEB </td>
   </tr>
   <tr>
     <td> BYB </td>
