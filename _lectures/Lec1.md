@@ -10,8 +10,8 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-01-17 #last updated date
-link-slides: /lecture_slides/lec1.pdf
-link-scribbles: /lecture_slides/lec1_scribbles_sp23.pdf
+link-slides: /materials/lecture_slides/lec1.pdf
+link-scribbles: /materials/lecture_slides/lec1_scribbles_sp23.pdf
 link-recording: https://www.youtube.com/watch?v=Dw6Mp_yalTo
 ---
 

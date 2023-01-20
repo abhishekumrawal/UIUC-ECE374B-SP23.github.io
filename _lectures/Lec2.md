@@ -9,8 +9,8 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-01-19
-link-slides: /lecture_slides/lec2.pdf
-link-scribbles: /lecture_slides/lec2_scribbles_sp23.pdf
+link-slides: /materials/lecture_slides/lec2.pdf
+link-scribbles: /materials/lecture_slides/lec2_scribbles_sp23.pdf
 link-recording:
 ---
 
