@@ -13,231 +13,39 @@ title: Homeworks
     <th>Questions</th>
     <th>Solutions</th>
   </tr>
-  <tr>
-    <td>1</td>
-    <td>Languages and RegEx</td>
-    <td>4</td>
-    <td> Jan-23 </td>
-    <td> Jan-30 </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>DFAs and NFAs</td>
-    <td>5</td>
-    <td> Jan-30 </td>
-    <td> Feb-06 </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Fooling Sets and CFGs</td>
-    <td>5</td>
-    <td> Feb-06 </td>
-    <td> Feb-13 </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>  
-  <tr>
-    <td>4</td>
-    <td>Reductions\ and Divide & Conquer</td>
-    <td>5</td>
-    <td> Feb-27 </td>
-    <td> Mar-6 </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>  
-  <tr>
-    <td>5</td>
-    <td>Backtracking and Dynamic Programming</td>
-    <td>5</td>
-    <td> Mar-06 </td>
-    <td> Mar-20 </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Simple and Directed-Acyclic Graphs</td>
-    <td>5</td>
-    <td> Mar-20 </td>
-    <td> Mar-27 </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>      
-  <tr>
-    <td>7</td>
-    <td>Shortest Paths, Bellman-Ford, Floyd-Warshall</td>
-    <td>5</td>
-    <td> Mar-27 </td>
-    <td> Apr-03 </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>
+  {% for iteml in site.data.homework %}  
+    {% assign item = iteml[1] %}
     <tr>
-    <td>8</td>
-    <td> Reductions, NP-Completeness</td>
-    <td>4</td>
-    <td> Apr-10 </td>
-    <td> Apr-17 </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>     
-  <tr>
-    <td>9</td>
-    <td> NP-Completeness, Decidability</td>
-    <td>5</td>
-    <td> Apr-17 </td>
-    <td> Apr-24 </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>        
+        <td>{{ item.num }}</td>
+        <td> {{ item.topic }} </td>
+        <td> {{ item.num-problems }} </td>
+        <td> {{ item.assigned-date | date: "%b %d" }} </td>
+        <td> {{ item.due-date | date: "%b %d" }} </td>
+        <td> 
+            {% if item.questions-link %}
+            <a href="{{ site.base }}{{ item.questions-link }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="Homework {{ item.num }} Questions"
+                    title="Homework {{ item.num }} Questions"
+                    src="{{ site.base }}/img/icons/lab_questions.png" />
+            </a>
+            {% endif %}
+        </td>
+        <td> 
+            <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ lecture.title }}"
+                    title="{{ lecture.title }} Solutions"
+                    src="{{ site.base }}/img/icons/lab_solutions.png" />
+            </a>  -->
+        </td>
+    </tr>        
+
+
+  {% endfor %}
+
 </table>
 
 &nbsp;
