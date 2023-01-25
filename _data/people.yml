@@ -170,10 +170,10 @@ qing:
 zikui:
     display_name: "Zikui Wang"
     netid: zikuiw2
-    webpage: ""
-    github: 
+    webpage: "https://www.linkedin.com/in/zikui-wang-b1821421b"
+    github: zikuiw2
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/zikui.jpg
     bio: Undergraduate Course Assistant
 
 jeep:
