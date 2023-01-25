@@ -6,6 +6,11 @@ kani:
     role: faculty
     image: /img/people/Kani.png
     bio: Research Assistant Professor 
+    hasOHs: true
+    time-start: "16:00"
+    time-end: "17:00"
+    day: Thursday
+    location: CSL 265  
 
 # scott:
 #     display_name: "Scott Summers"
@@ -44,6 +49,11 @@ sungwoo:
     role: grad
     image: /img/people/sung.jpg
     bio: Graduate Teaching Assistant
+    hasOHs: true
+    time-start: "14:00"
+    time-end: "15:00"
+    day: Friday
+    location: ECEB 3034  
 
 nicholas:
     display_name: "Nicholas Bampton"
@@ -53,6 +63,11 @@ nicholas:
     role: grad
     image: /img/people/nicholas.jpg
     bio: Graduate Teaching Assistant
+    hasOHs: true
+    time-start: "14:00"
+    time-end: "15:00"
+    day: Wednesday
+    location: ECEB 3034  
 
 gautham:
     display_name: "Gautham Varma"
@@ -62,7 +77,12 @@ gautham:
     role: grad
     image: /img/people/gautham.jpg
     bio: Graduate Teaching Assistant
-
+    hasOHs: true
+    time-start: "11:00"
+    time-end: "12:00"
+    day: Friday
+    location: ECEB 3034  
+      
 sindu:
     display_name: "Sindhu Vydana"
     netid: svydana2
@@ -71,6 +91,12 @@ sindu:
     role: grad
     image: /img/people/sindu.jpeg
     bio: Graduate Teaching Assistant
+    hasOHs: true
+    time-start: "11:00"
+    time-end: "12:00"
+    day: Wednesday
+    location: ECEB 3034  
+
 
 sandhya:
     display_name: "Sandhya Perumenki"
@@ -80,15 +106,18 @@ sandhya:
     role: grad
     image: /img/people/sandhya.jpeg
     bio: Graduate Teaching Assistant
-
-
+    hasOHs: true
+    time-start: "12:00"
+    time-end: "13:00"
+    day: Friday
+    location: ECEB 3034  
 
 ### Undergraduate TAs
 kevin:
     display_name: "Kevin Lim"
     netid: wzlim2
     webpage: ""
-    github: 
+    github: kevtool
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant  
@@ -97,9 +126,9 @@ erin:
     display_name: "Erin Kim"
     netid: erinkim4
     webpage: ""
-    github: 
+    github: oati
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/erin.jpg
     bio: Undergraduate Course Assistant  
 
 weiyang:
