@@ -4,7 +4,7 @@ placeholder: false
 back-color: faffff
 card-link: LecLink4
 # subtitle: And a subtitle
-description:
+description: Introduction to non-determinism. We'll talk about how it applies to automata and formalize NFA concepts/definitions.
 people:
 layout: lecture
 # no-link: true  # stops link to page 
@@ -16,9 +16,10 @@ link-recording:
 
 Nothing so far.....
 
+&nbsp;
 <h4>Additional Resources</h4>
-
-
+- [Jeff's - Notes on non-deterministic automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/04-nfa.pdf)
+- [Sariel's Lecture 2](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 
