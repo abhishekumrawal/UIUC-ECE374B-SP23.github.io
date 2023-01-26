@@ -247,6 +247,12 @@ kaifeng:
     role: ugrad
     image: /img/people/kaifeng.jpg
     bio: Undergraduate Course Assistant
+    hasOHs: true
+    time-start: "16:00"
+    time-end: "17:00"
+    day: Tuesday
+    location: ECEB 2013  
+
 
 # alum-a:
 #     display_name: "Alum A"
