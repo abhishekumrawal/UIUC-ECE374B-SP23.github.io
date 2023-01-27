@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2023-01-17 #last updated date
 link-slides: /materials/lecture_slides/lec1.pdf
 link-scribbles: /materials/lecture_slides/lec1_scribbles_sp23.pdf
-link-recording: https://www.youtube.com/watch?v=Dw6Mp_yalTo
+link-recording: https://mediaspace.illinois.edu/media/t/1_dvrwq628/282723252
 ---
 
 Course policies can be found on the website [ecealgo.com](https://ecealgo.com).

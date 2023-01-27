@@ -11,7 +11,7 @@ layout: lecture
 deliverydate: 2023-01-19
 link-slides: /materials/lecture_slides/lec2.pdf
 link-scribbles: /materials/lecture_slides/lec2_scribbles_sp23.pdf
-link-recording:
+link-recording: https://mediaspace.illinois.edu/media/t/1_2f3yc8he/282723252
 ---
 
 #### Strings and Languages
