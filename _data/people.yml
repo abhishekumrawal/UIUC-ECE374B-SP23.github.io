@@ -185,8 +185,8 @@ jeep:
     image: /img/people/jeep.jpg
     bio: Undergraduate Course Assistant    
 
-maxm:
-    display_name: "Max Montano"
+mikem:
+    display_name: "Mike Montano"
     netid: montano3
     webpage: "https://www.linkedin.com/in/mike-montano-680aa6230/"
     github: 
