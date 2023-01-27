@@ -10,7 +10,7 @@ kani:
     time-start: "16:00"
     time-end: "17:00"
     day: Thursday
-    location: CSL 265  
+    location: CSL 221  
 
 # scott:
 #     display_name: "Scott Summers"
@@ -193,6 +193,11 @@ maxm:
     role: ugrad
     image: /img/people/mike.jpg
     bio: Undergraduate Course Assistant
+    hasOHs: true
+    time-start: "12:00"
+    time-end: "14:00"
+    day: Monday
+    location: ECEB 5034  
 
 sumedh:
     display_name: "Sumedh Vemuganti"
