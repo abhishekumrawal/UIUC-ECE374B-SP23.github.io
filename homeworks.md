@@ -59,6 +59,7 @@ Couple things to note about homeworks:
 ### Homework Logistics: How to submit
 
 - All homework solutions must be submitted electronically via Gradescope. Submit one PDF file for each numbered homework problem. Gradescope will not accept other file formats such as plain text, HTML, LaTeX source, or Microsoft Word (.doc or .docx).
+- **Homeworks are due by noon** of their due date. 
 - You will be registered with Gradescope using your university email address. If you can't access Gradescope let the course staff know. 
 - Homework solutions may be submitted by groups of at **most three** students. Students are responsible for forming their own homework groups. Groups may be different for each numbered homework problem. 
     - **For group solutions, exactly one member of each group submits the solution to each problem.** Even if the groups are identical, the submitter may be different for each numbered homework problem. This is important to realize since gradescope will overwrite other members' submissions if you submit on behalf of your group.
@@ -68,7 +69,7 @@ Couple things to note about homeworks:
     - The homework number
     - The problem number
     - Group names+netids
-- **We will not accept late homework for any reason.** To offset this rather draconian policy, we will count only the homework problems you actually submit toward your final course grade. 
+- **We will not accept late homework for any reason.** To offset this rather draconian policy, we have a very generous number of homework drops (compare to other sections/courses). Also remember you can always resubmit a problem to gradescope. There is zero reason to wait until the last minute to submit your work.  
 
 ### Homework Grading Policies: 
 
