@@ -202,10 +202,10 @@ mikem:
 sumedh:
     display_name: "Sumedh Vemuganti"
     netid: sumedh2
-    webpage: ""
+    webpage: "https://www.linkedin.com/in/sumedh-vemu/"
     github: 
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/sumedh.jpeg
     bio: Undergraduate Course Assistant
 
 # sahil:
