@@ -20,15 +20,21 @@
 
     {% for iteml in site.data.people %}  
         {% assign item = iteml[1] %}
-        {% if item.hasOHs %}
-            {% assign start_time =  item.time-start | split: ':' %}
-            {% assign end_time =  item.time-end | split: ':' %}
-            <div class="session session-1 {{item.role}}-OH" style="grid-column: {{ item.day }}; grid-row: time-{{start_time[0]}}{{start_time[1]}} / time-{{end_time[0]}}{{end_time[1]}};">
-                <span class="session-presenter">{{item.display_name}}</span>
-                <span class="session-track">{{ item.day }}</span>
-                <span class="session-time">{% include display_time.html param=item.time-start %} - {% include display_time.html param=item.time-end %}</span>
-                <span class="session-track">{{ item.location }}</span>
-            </div>
+        {% if item.OHs %}
+            {% assign name  = item.display_name %}
+            {% assign role  = item.role %}
+            {% for OH_item in item.OHs %}
+                {% assign start_time =  OH_item[1].time-start | split: ':' %}
+                {% assign end_time   =  OH_item[1].time-end   | split: ':' %}
+                <div class="session session-1 {{role}}-OH" style="grid-column: {{ OH_item[1].day }}; grid-row: time-{{start_time[0]}}{{start_time[1]}} / time-{{end_time[0]}}{{end_time[1]}};">
+                    <span class="session-presenter">{{ name }}</span>
+                    <span class="session-track">{{ OH_item[1].day }}</span>
+                    {% assign stime =  OH_item[1].time-start %} 
+                    {% assign etime =  OH_item[1].time-end %}
+                    <span class="session-time">{% include display_time.html param=stime %} - {% include display_time.html param=etime %}</span>
+                    <span class="session-track">{{ OH_item[1].location }}</span>
+                </div>
+            {% endfor %}    
         {% endif %}
     {% endfor %}
 
