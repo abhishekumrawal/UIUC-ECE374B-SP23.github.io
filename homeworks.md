@@ -33,13 +33,15 @@ title: Homeworks
             {% endif %}
         </td>
         <td> 
-            <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
+            {% if item.solutions-link %}
+            <a href="{{ site.base }}{{ item.solutions-link }}"
                 style="text-decoration: none">
                 <img class="homework-icon"
-                    alt="{{ lecture.title }}"
-                    title="{{ lecture.title }} Solutions"
+                    alt="Homework {{ item.num }} Questions"
+                    title="Homework {{ item.num }} Questions"
                     src="{{ site.base }}/img/icons/lab_solutions.png" />
-            </a>  -->
+            </a>
+            {% endif %}
         </td>
     </tr>        
 
