@@ -49,13 +49,13 @@ Under Construction. There will be no office hours the first week (use Piazza). W
   <tr>
     <td> BYC </td>
     <td> 12:00PM - 12:50PM </td>
-    <td> Nicholas </td>
+    <td> Sindhu </td>
     <td> 2015 ECEB </td>
   </tr>
   <tr>
     <td> BYD </td>
     <td> 03:00PM - 03:50PM </td>
-    <td> Sindhu </td>
+    <td> Nicholas </td>
     <td> 2015 ECEB </td>
   </tr>
 </table>
