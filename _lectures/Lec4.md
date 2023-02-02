@@ -26,7 +26,7 @@ Consider the following example of an NFA.
 
 
 Suppose the NFA received $1$ as an input string. There exists a transition from $a$ directly to the accepting state $d$, so the NFA accepts the input $1$. 
-For an input $0$, there is a transition leading to $d$, by taking the $\varepsilon$-transition to the state $b$ and then to $d$. 
+For an input $0$, there is a transition leading to $d$, by taking the $\epsilon$-transition to the state $b$ and then to $d$. 
 For an input $10$, the NFA can reach $d$ through the state $c$. Therefore, the NFA accepts three strings, $0$, $1$, and $10$. 
 
 <h4>Formal Definition of NFA</h4>
