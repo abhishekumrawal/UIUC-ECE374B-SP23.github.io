@@ -26,7 +26,6 @@ Due to the properties described above, there can be multiple possible ways of tr
 If there exists a way to transition from the start state to an accepting state, then the NFA accepts the input string. 
 Consider the following example of an NFA.
 
-<img src="/img/lectures/Lec4/lec4_nfa.png" alt="Example NFA" style="height: 300px;">
 
 Suppose the NFA received $1$ as an input string. There exists a transition from $a$ directly to the accepting state $d$, so the NFA accepts the input $1$. 
 For an input $0$, there is a transition leading to $d$, by taking the $\epsilon$-transition to the state $b$ and then to $d$. 
