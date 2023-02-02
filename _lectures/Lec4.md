@@ -16,9 +16,9 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_jrvgweav/282723252
 
 <h4>Nondeterministic Finite Automaton(NFA)</h4>
 An NFA is a finite-state automaton that can non-deterministically transition between states.
-Unlike a DFA, an NFA can:
-1. Transition without taking an input symbol, which is called $`\varepsilon`$-transition.
-2. Have multiple transitions for the given source state and the input symbol. 
+Unlike a DFA, an NFA can:</br>
+1. Transition without taking an input symbol, which is called $\varepsilon$-transition.</br>
+2. Have multiple transitions for the given source state and the input symbol. </br></br>
 
 Due to the properties described above, there can be multiple possible ways of transitioning between states given a single input string. 
 If there exists a way to transition to an accepting state, the NFA accepts the input string. 
