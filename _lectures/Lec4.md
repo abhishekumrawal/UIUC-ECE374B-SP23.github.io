@@ -17,7 +17,7 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_jrvgweav/282723252
 <h4>Nondeterministic Finite Automaton(NFA)</h4>
 An NFA is a finite-state automaton that can non-deterministically transition between states.
 Unlike a DFA, an NFA can:</br>
-1. Transition without taking an input symbol, which is called $\varepsilon$-transition.</br>
+1. Transition without taking an input symbol, which is called $\epsilon$-transition.</br>
 2. Have multiple transitions for the given source state and the input symbol. </br></br>
 
 Due to the properties described above, there can be multiple possible ways of transitioning between states given a single input string. 
@@ -31,14 +31,14 @@ For an input $10$, the NFA can reach $d$ through the state $c$. Therefore, the N
 
 <h4>Formal Definition of NFA</h4>
 Formal definition of NFA is similar to that of DFA, except for the transition function. 
-An NFA $A$ is a 5-tuple $(\Sigma, Q, \vardelta, s, A)$, which are input alphavet, states, transition function, start state, and accepting states, respectively.
-However, unlike DFA, the transition function $\vardelta:Q\times \Sigma \rightarrow 2^Q$ is a function that maps a pair of state and an input symbol to a subset of $Q$.
+An NFA $A$ is a 5-tuple $(\Sigma, Q, \delta, s, A)$, which are input alphavet, states, transition function, start state, and accepting states, respectively.
+However, unlike DFA, the transition function $\delta:Q\times \Sigma \rightarrow 2^Q$ is a function that maps a pair of state and an input symbol to a subset of $Q$.
 This is because there can be multiple possible transitions for the given source state and the input symbol, each leading to a different state. 
 The transition function of the example NFA above can be formally described as the following.
-$\vardelta(a, \varepsilon)=\{b\}$
-$\vardelta(a, 1)=\{c, d\}$
-$\vardelta(c, 0)=\{d\}$
-$\vardelta(b, 0)=\{d\}$
+$\delta(a, \epsilon)=\{b\}$
+$\delta(a, 1)=\{c, d\}$
+$\delta(c, 0)=\{d\}$
+$\delta(b, 0)=\{d\}$
  
 
 &nbsp;
