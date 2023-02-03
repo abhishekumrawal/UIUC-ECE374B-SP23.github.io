@@ -29,14 +29,14 @@ Consider the following example of an NFA.
 <img src="/img/lectures/Lec4/lec4_nfa.png" alt="Example NFA" style="height: 300px;">
 
 Suppose the NFA received $1$ as an input string. There exists a transition from $a$ directly to the accepting state $d$, so the NFA accepts the input $1$. 
-For an input $0$, there is a transition leading to $d$, by taking the $\epsilon$-transition to the state $b$ and then to $d$. 
+For an input $0$, there is a transition leading to $d$, by taking the $\epsilon$-transition to $b$ and then to $d$. 
 For an input $10$, the NFA can reach $d$ through the state $c$. Therefore, the NFA accepts three strings, $0$, $1$, and $10$. 
 
 <h4>Formal Definition of NFA</h4>
 
 Formal definition of NFA is similar to that of DFA, except for the transition function. 
-An NFA $N$ is a 5-tuple $N=(\Sigma, Q, \delta, s, A)$, which are input alphavet, states, transition function, start state, and accepting states, respectively.
-However, unlike DFA, the transition function $\delta:Q\times \Sigma \rightarrow 2^Q$ is a function that maps a pair of state and an input symbol to a subset of $Q$.
+An NFA $N$ is a 5-tuple $N=(\Sigma, Q, \delta, s, A)$, which are input alphabet, states, transition function, start state, and accepting states, respectively.
+However, unlike DFA, the transition function $\delta:Q\times \Sigma \rightarrow 2^Q$ is a function that maps the pairs of a state and an input symbol to the power set of $Q$(The definition of power set is explained in details in the following section).
 This is because there can be multiple possible transitions for the given source state and the input symbol, each leading to a different state. 
 The transition function of the example NFA above can be formally described as the following.
 
@@ -47,7 +47,36 @@ $$\delta(a, 1)=\\{c, d\\}$$
 $$\delta(c, 0)=\\{d\\}$$
 
 $$\delta(b, 0)=\\{d\\}$$
- 
+
+Note that not every pairs appear in the above definition. The missing pairs are implicitly mapped to the empty set $\emptyset$.
+
+<h4>Appendix </h4>
+
+<h5>Power Set</h5>
+
+The power set of a set $S$, often denoted as $2^S$, is a set of all subsets of $S$. 
+For example, if $S=\\{0, 1 \\}$, then $2^S=\\{\emptyset, \\{0\\}, \\{1\\}, \\{0,1\\} \\}$.
+
+<h5> $\epsilon$-Transition </h5>
+
+An $\epsilon$-transition is a transition of an NFA that does not consume an input symbol.
+If there is an outgoing$\epsilon$-transition from the current state of an NFA, then the NFA can choose to either take the $\epsilon$-transition or not.
+
+An $\epsilon$-reach of a state $q \in Q$ is a set of all states that can be reached from $q$ without reading in an input symbol. 
+In the example NFA, the $\epsilon$-reach of the state $a$ is $\\{a, b\\}$. Note that $\epsilon$-reach of a state always contains the state itself. 
+
+<h5> Extended Transition Function </h5>
+
+Describing transitions of an NFA on an input string requires applying transition function multiple times.
+The resulting expression would contain nested transition functions like $\delta(\delta(\delta(...$, which can be wordy and confusing. 
+Alternatively, we can define an extended transition function $\delta^\* $ which defines transitions on an arbitrary string, as follows. 
+
+$$\delta^*(q,w) :=\begin{case} \epsilon-\text{reach}(q)  &\text{if }w=\epsilon  \\ \delta^*(\delta(q,a),x) &\text{if } w=ax \end{case} $$
+
+Intuitively, the extended transition function is defined by recursively applying the transition function on the current state and the leftmost symbol of the remaining input string.
+Note that defining the extended transition function does not change the behavior of the NFA at all. 
+The extended transition function is more like a syntactic sugar derived from the original transition function. 
+
 
 &nbsp;
 <h4>Additional Resources</h4>
