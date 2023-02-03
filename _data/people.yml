@@ -82,10 +82,10 @@ gautham:
     bio: Graduate Teaching Assistant
     OHs: 
       OH1:
-        time-start: "11:00"
-        time-end: "12:00"
-        day: Friday
-        location: ECEB 3034  
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Thursday
+        location:  
       
 sindu:
     display_name: "Sindhu Vydana"
