@@ -54,7 +54,7 @@ Note that not every pairs appear in the above definition. The missing pairs are 
 
 An arbitrary NFA can be transformed to have a single accepting state as appears in the following figure. 
 
-<img src="/img/lectures/Lec4/singleaccpet.png" alt="Transforming an NFA to have a single accepting state" style="height: 300px;">
+<img src="/img/lectures/Lec4/singleaccept.png" alt="Transforming an NFA to have a single accepting state" style="height: 300px;">
 
 The closure properties of regular languages under union, concatenation, and Kleene Star can be proved using the transformed NFAs. 
 The following figures show how the union, concatenation, Kleene star of regular languages can be constructed, given NFAs with a single accepting state for the languages. 
@@ -65,14 +65,14 @@ The following figures show how the union, concatenation, Kleene star of regular 
 
 2.Concatenation
 
-<img src="/img/lectures/Lec4/concat.png" alt="Concatenation" style="height: 300px;">
+<img src="/img/lectures/Lec4/concat.png" alt="Concatenation" style="width: 500px;">
 
 3. Kleene Star
 
 <img src="/img/lectures/Lec4/kleene.png" alt="Kleene star" style="height: 300px;">
 
 Since the NFAs for the operations could be constructed, we conclude that the resulting languages are regular, and therefore the class of all regular languages is closed under the three operations. 
-Note that the NFAs after applying the operations in the figures ar
+Note that the NFAs after applying the operations in the figures also have a single accepting state. Therefore, any combinations of unions, concatenations, and Kleene stars can be represented by recursively applying the construction method. 
 
 <h4>Terms and concepts</h4>
 
