@@ -102,7 +102,7 @@ $$\delta^{\*}(q,\epsilon):=\epsilon\text{reach}(q)$$
 $$\delta^{\*} (q, ax) := \delta^{\*} (\delta(q,a),x)$$
 
 Intuitively, the extended transition function is defined by recursively applying the transition function on the current state and the leftmost symbol of the remaining input string.
-The transition $\delta(\delta(\delta(q,1),0),1)$ introduced above can now be written as $\delta^{\*}(1, 101). 
+The transition $\delta(\delta(\delta(q,1),0),1)$ introduced above can now be written as $\delta^{\*}(1, 101)$. 
 Note that defining the extended transition function does not change the behavior of the NFA at all. 
 The extended transition function is more like a syntactic sugar derived from the original transition function. 
 
