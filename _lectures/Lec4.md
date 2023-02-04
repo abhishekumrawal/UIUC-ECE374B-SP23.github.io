@@ -94,14 +94,15 @@ In the example NFA, the $\epsilon$-reach of the state $a$ is $\\{a, b\\}$. Note 
 <h5> Extended Transition Function </h5>
 
 Describing transitions of an NFA on an input string requires applying transition function multiple times.
-The resulting expression would contain nested transition functions like $\delta(\delta(\delta(...$, which can be wordy and confusing. 
+The resulting expression would contain nested transition functions like $\delta(\delta(\delta(q,1),0),1)$, which can be wordy and confusing. 
 Alternatively, we can define an **extended transition function** $\delta^{\*}$ which defines transitions on an arbitrary string, as follows. 
 
 $$\delta^{\*}(q,\epsilon):=\epsilon\text{reach}(q)$$
 
-$$\delta^{\*} (q, ax) := \delta^{*} (\delta(q,a),x)$$
+$$\delta^{\*} (q, ax) := \delta^{\*} (\delta(q,a),x)$$
 
 Intuitively, the extended transition function is defined by recursively applying the transition function on the current state and the leftmost symbol of the remaining input string.
+The transition $\delta(\delta(\delta(q,1),0),1)$ introduced above can now be written as $\delta^{\*}(1, 101). 
 Note that defining the extended transition function does not change the behavior of the NFA at all. 
 The extended transition function is more like a syntactic sugar derived from the original transition function. 
 
