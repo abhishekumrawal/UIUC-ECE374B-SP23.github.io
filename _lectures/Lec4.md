@@ -59,15 +59,15 @@ An arbitrary NFA can be transformed to have a single accepting state as appears 
 The closure properties of regular languages under union, concatenation, and Kleene Star can be proved using the transformed NFAs. 
 The following figures show how the union, concatenation, Kleene star of regular languages can be constructed, given NFAs with a single accepting state for the languages. 
 
-1.Union
+<h5>Union</h5>
 
 <img src="/img/lectures/Lec4/union.png" alt="Union" style="height: 250px;">
 
-2.Concatenation
+<h5>Concatenation</h5>
 
 <img src="/img/lectures/Lec4/concat.png" alt="Concatenation" style="width: 400px;">
 
-3. Kleene Star
+<h5>Kleene Star</h5>
 
 <img src="/img/lectures/Lec4/kleene.png" alt="Kleene star" style="height: 250px;">
 
