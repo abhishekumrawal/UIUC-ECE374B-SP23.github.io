@@ -89,7 +89,6 @@ An **$\epsilon$-transition** is a transition of an NFA that does not consume an 
 If there is an outgoing$\epsilon$-transition from the current state of an NFA, then the NFA can choose to either take the $\epsilon$-transition or not.
 
 An **$\epsilon$-reach** of a state $q \in Q$ is a set of all states that can be reached from $q$ without reading in an input symbol. 
-
 In the example NFA, the $\epsilon$-reach of the state $a$ is $\\{a, b\\}$. Note that $\epsilon$-reach of a state always contains the state itself. 
 
 <h5> Extended Transition Function </h5>
