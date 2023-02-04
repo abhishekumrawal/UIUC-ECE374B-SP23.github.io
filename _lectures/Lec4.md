@@ -48,7 +48,7 @@ $$\delta(c, 0)=\\{d\\}$$
 
 $$\delta(b, 0)=\\{d\\}$$
 
-Note that not every pairs appear in the above definition. The missing pairs are implicitly mapped to the empty set $\emptyset$.
+Note that not every (state, input symbol) pairs appear in the above definition. The missing pairs are implicitly mapped to the empty set $\emptyset$.
 
 <h4>Closure properties of Regular Languages</h4>
 
