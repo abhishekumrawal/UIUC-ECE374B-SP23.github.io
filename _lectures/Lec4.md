@@ -36,11 +36,7 @@ For an input $10$, the NFA can reach $d$ through the state $c$. Therefore, the N
 
 Formal definition of NFA is similar to that of DFA, except for the transition function. 
 An NFA $N$ is a 5-tuple $N=(\Sigma, Q, \delta, s, A)$, which are input alphabet, states, transition function, start state, and accepting states, respectively.
-<<<<<<< HEAD
-However, unlike DFA, the transition function $\delta:Q\times \Sigma \rightarrow 2^Q$ is a function that maps the pairs of a state and an input symbol to the power set of $Q$(The definition of power set is explained in details in the following section).
-=======
 However, unlike DFA, the transition function $\delta:Q\times \Sigma \rightarrow 2^Q$ is a function that maps the pairs of a state and an input symbol to the **power set** of $Q$.
->>>>>>> 538ad1c3d29e68aedae7185d8fdefbf8695561fe
 This is because there can be multiple possible transitions for the given source state and the input symbol, each leading to a different state. 
 The transition function of the example NFA above can be formally described as the following.
 
@@ -76,67 +72,42 @@ The following figures show how the union, concatenation, Kleene star of regular 
 <img src="/img/lectures/Lec4/kleene.png" alt="Kleene star" style="height: 300px;">
 
 Since the NFAs for the operations could be constructed, we conclude that the resulting languages are regular, and therefore the class of all regular languages is closed under the three operations. 
-Note that the NFAs after applying the operations in the figures also have a single accepting state. 
-Therefore, any combinations of unions, concatenations, and Kleene stars can be represented by recursively applying the construction methods. 
+Note that the NFAs after applying the operations in the figures ar
 
 <h4>Terms and concepts</h4>
 
 <h5>Power Set</h5>
 
-<<<<<<< HEAD
-The power set of a set $S$, often denoted as $2^S$, is a set of all subsets of $S$. 
-=======
+
 The **power set** of a set $S$, often denoted as $2^S$, is a set of all subsets of $S$. 
->>>>>>> 538ad1c3d29e68aedae7185d8fdefbf8695561fe
 For example, if $S=\\{0, 1 \\}$, then $2^S=\\{\emptyset, \\{0\\}, \\{1\\}, \\{0,1\\} \\}$.
 
 <h5> $\epsilon$-Transition </h5>
 
-<<<<<<< HEAD
-An $\epsilon$-transition is a transition of an NFA that does not consume an input symbol.
-If there is an outgoing$\epsilon$-transition from the current state of an NFA, then the NFA can choose to either take the $\epsilon$-transition or not.
 
-An $\epsilon$-reach of a state $q \in Q$ is a set of all states that can be reached from $q$ without reading in an input symbol. 
-=======
 An **$\epsilon$-transition** is a transition of an NFA that does not consume an input symbol.
 If there is an outgoing$\epsilon$-transition from the current state of an NFA, then the NFA can choose to either take the $\epsilon$-transition or not.
 
 An **$\epsilon$-reach** of a state $q \in Q$ is a set of all states that can be reached from $q$ without reading in an input symbol. 
->>>>>>> 538ad1c3d29e68aedae7185d8fdefbf8695561fe
+
 In the example NFA, the $\epsilon$-reach of the state $a$ is $\\{a, b\\}$. Note that $\epsilon$-reach of a state always contains the state itself. 
 
 <h5> Extended Transition Function </h5>
 
 Describing transitions of an NFA on an input string requires applying transition function multiple times.
 The resulting expression would contain nested transition functions like $\delta(\delta(\delta(...$, which can be wordy and confusing. 
-<<<<<<< HEAD
-Alternatively, we can define an extended transition function $\delta^\* $ which defines transitions on an arbitrary string, as follows. 
-
-$$\delta^*(q,w) :=\begin{case} \epsilon-\text{reach}(q)  &\text{if }w=\epsilon  \\ \delta^*(\delta(q,a),x) &\text{if } w=ax \end{case} $$
-=======
 Alternatively, we can define an **extended transition function** $\delta^{\*}$ which defines transitions on an arbitrary string, as follows. 
 
 $$\delta^{\*}(q,\epsilon):=\epsilon\text{reach}(q)$$
 
 $$\delta^{\*} (q, ax) := \delta^{*} (\delta(q,a),x)$$
->>>>>>> 538ad1c3d29e68aedae7185d8fdefbf8695561fe
 
 Intuitively, the extended transition function is defined by recursively applying the transition function on the current state and the leftmost symbol of the remaining input string.
 Note that defining the extended transition function does not change the behavior of the NFA at all. 
 The extended transition function is more like a syntactic sugar derived from the original transition function. 
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 538ad1c3d29e68aedae7185d8fdefbf8695561fe
 
 &nbsp;
 <h4>Additional Resources</h4>
 - [Jeff's - Notes on non-deterministic automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/04-nfa.pdf)
 - [Sariel's Lecture 2](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
-
-
-
-
-
-
