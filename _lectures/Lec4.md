@@ -40,13 +40,13 @@ However, unlike DFA, the transition function $\delta:Q\times \Sigma \rightarrow 
 This is because there can be multiple possible transitions for the given source state and the input symbol, each leading to a different state. 
 The transition function of the example NFA above can be formally described as the following.
 
-$$\delta(a, \epsilon)= \\{ b \\}$$
+$$\delta(a, \epsilon)= \{ b \}$$
 
-$$\delta(a, 1)=\\{c, d\\}$$
+$$\delta(a, 1)=\{c, d\}$$
 
-$$\delta(c, 0)=\\{d\\}$$
+$$\delta(c, 0)=\{d\}$$
 
-$$\delta(b, 0)=\\{d\\}$$
+$$\delta(b, 0)=\{d\}$$
 
 Note that not every (state, input symbol) pairs appear in the above definition. The missing pairs are implicitly mapped to the empty set $\emptyset$.
 
@@ -97,12 +97,12 @@ Describing transitions of an NFA on an input string requires applying transition
 The resulting expression would contain nested transition functions like $\delta(\delta(\delta(q,1),0),1)$, which can be wordy and confusing. 
 Alternatively, we can define an **extended transition function** $\delta^{\*}$ which defines transitions on an arbitrary string, as follows. 
 
-$$\delta^{\*}(q,\epsilon):=\epsilon\text{reach}(q)$$
+$$\delta^{*}(q,\epsilon):=\epsilon\text{reach}(q)$$
 
-$$\delta^{\*} (q, ax) := \delta^{\*} (\delta(q,a),x)$$
+$$\delta^{*} (q, ax) := \delta^{*} (\delta(q,a),x)$$
 
 Intuitively, the extended transition function is defined by recursively applying the transition function on the current state and the leftmost symbol of the remaining input string.
-The transition $\delta(\delta(\delta(q,1),0),1)$ introduced above can now be written as $\delta^{\*}(q, 101)$. 
+The transition $\delta(\delta(\delta(q,1),0),1)$ introduced above can now be written as $\delta^{*}(q, 101)$. 
 Note that defining the extended transition function does not change the behavior of the NFA at all. 
 The extended transition function is more like a syntactic sugar derived from the original transition function. 
 
