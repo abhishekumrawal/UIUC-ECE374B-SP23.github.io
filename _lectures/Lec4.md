@@ -67,9 +67,9 @@ The following figures show how the union, concatenation, Kleene star of regular 
 
 <table border='0'> 
   <tr>
-    <td> Union </td>
-    <td> Concatenation </td>
-    <td> Kleene Star </td>
+    <td> <b>Union</b> </td>
+    <td> <b>Concatenation</b> </td>
+    <td> <b>Kleene Star</b> </td>
   </tr>
   <tr>
     <td>
