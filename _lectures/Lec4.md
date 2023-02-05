@@ -14,6 +14,12 @@ link-scribbles: /materials/lecture_slides/lec4_scribbles_sp23.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_jrvgweav/282723252
 ---
 
+<style>
+  table{
+    border-spacing: 30px;
+  }
+</style>
+
 <h4>Nondeterministic Finite Automaton(NFA)</h4>
 
 An NFA is a finite-state automaton that can non-deterministically transition between states.
