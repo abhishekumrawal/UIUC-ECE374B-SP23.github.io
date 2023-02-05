@@ -17,7 +17,7 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_jrvgweav/282723252
 <style>
   table{
     border-collapse:separate;
-    border-spacing: 50px;
+    border-spacing: 50px, 0px;
   }
 </style>
 
