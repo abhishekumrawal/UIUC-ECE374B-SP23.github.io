@@ -1,0 +1,80 @@
+hw1: 
+  num: 1
+  topic: Languages and RegEx
+  num-problems: 4
+  assigned-date: 2023-01-20
+  due-date: 2023-01-30
+  questions-link: /materials/homeworks/hw1.pdf
+  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw1_sol.pdf
+
+hw2: 
+  num: 2
+  topic: DFAs and NFAs	
+  num-problems: 5
+  assigned-date: 2023-01-30
+  due-date: 2023-02-06
+  questions-link: /materials/homeworks/hw2.pdf
+  solutions-link:
+
+hw3: 
+  num: 3
+  topic: Fooling Sets and CFGs	
+  num-problems: 5
+  assigned-date: 2023-02-06
+  due-date: 2023-02-13
+  questions-link:  /materials/homeworks/hw3.pdf
+  solutions-link:
+
+hw4: 
+  num: 4
+  topic: Reductions and Divide & Conquer	
+  num-problems: 5
+  assigned-date: 2023-02-27
+  due-date: 2023-03-06
+  questions-link:
+  solutions-link:
+
+hw5: 
+  num: 5
+  topic: Backtracking and Dynamic Programming	
+  num-problems: 5
+  assigned-date: 2023-03-06
+  due-date: 2023-03-20
+  questions-link:
+  solutions-link:
+
+hw6: 
+  num: 6
+  num-problems: 5
+  topic: Simple and Directed-Acyclic Graphs	
+  assigned-date: 2023-03-20
+  due-date: 2023-03-27
+  questions-link:
+  solutions-link:
+
+hw7: 
+  num: 7
+  topic: Shortest Paths, Bellman-Ford, Floyd-Warshall	
+  num-problems: 5
+  assigned-date: 2023-03-27
+  due-date: 2023-04-03
+  questions-link:
+  solutions-link:
+
+hw8: 
+  num: 8
+  topic: Reductions, NP-Completeness	
+  num-problems: 4
+  assigned-date: 2023-04-10
+  due-date: 2023-04-17
+  questions-link:
+  solutions-link:
+
+hw9: 
+  num: 9
+  topic: NP-Completeness, Decidability	
+  num-problems: 5
+  assigned-date: 2023-04-17
+  due-date: 2023-04-24
+  questions-link:
+  solutions-link:

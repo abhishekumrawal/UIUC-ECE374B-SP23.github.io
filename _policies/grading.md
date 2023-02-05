@@ -8,7 +8,7 @@ description: How your final grade is calculated.
 There are three components to your raw total: 
 
 - [Homeworks](/homeworks.html): 24%
-    - Remeber we have a drop policy so if you miss a homework due to illness or did not perform as well as you'd hoped, you have an opportunity to bounce back. 
+    - Remember we have a drop policy so if you miss a homework due to illness or did not perform as well as you'd hoped, you have an opportunity to bounce back. 
     - Specifically, we will include only the top 34 homework problems (including the lab problems) scores in computing your final grade. We expect to grade 9 homeworks, each with 4-5 problems. Should for some reason we would grade less homework problems, we will still use the top 34 homework problems.
     - If you submit everything, this policy is equivalent to dropping 9 homework problems.
     - **If you submit less than 25 homework problems** you are likely to fail unless there is an overriding excuse.
@@ -16,7 +16,7 @@ There are three components to your raw total:
     - There will be three midterm exams, and a cumulative final exam. 
     - **We will drop the lowest exam grade (including the final).** Hence, each exam is worth 25% but if you screw one up, never fear, one exam will get dropped. Alternatively, if you do well on the midterms and want to skip the final, go for it! We will try our best to give students a projected final grade after the third midterm.
     - Keep in mind that regardless of the exam you drop, you will still be tested on the entire course content since the final is cumulative. 
-    - There will be no conflicts. The drop policy is speciifcally for indivduals that need a bit of a break for whatever reason (illness, duty, etc.). 
+    - There will be no conflicts. The drop policy is specifically for individuals that need a bit of a break for whatever reason (illness, duty, etc.). 
     - I don't want to be the arbiter of what is and isn't a valid reason to miss your work (and neither should students have to plead and hope for mercy from professors). That is why I constructed this policy that is merciful but will apply it strictly. If you have a serious issue that cause you to miss two or more midterms, you need to contact your department's advising office and/or the [emergency dean](/policies/stressed).
 - ICES form: 1%
     - Every semester I send minimum of 3-4 reminder emails asking students to complete the ICES forms and I've never been able to get above 35% participation.

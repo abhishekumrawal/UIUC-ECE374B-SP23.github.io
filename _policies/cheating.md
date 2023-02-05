@@ -43,7 +43,7 @@ There are only two exceptions to this rule. **You are not required to cite the f
 - The default penalty for cheating on a homework problem is *a grade of zero on the entire homework set*, which we will not drop when we compute your final course grade. (In practice, the effect of this penalty is about half of a letter grade.)
 - The default penalty for cheating on an exam is a grade of zero *on the entire exam*, which we will not drop when we compute your final course grade. (In practice, the effect of this penalty is roughly two full letter grades.)
 - The default penalty for cheating on multiple assignments in an F in the course. Doesn't matter if this is your first violation or yoru third. A consistent pattern of cheating in the course if grounds for immediate failure. 
-- We reserve the right to register FAIR violations at any point in the semester (even once the seemster is over). FAIR violations are time-consuming for the staff so multiple cheating offenses could be included in a single violation. 
+- We reserve the right to register FAIR violations at any point in the semester (even once the semester is over). FAIR violations are time-consuming for the staff so multiple cheating offenses could be included in a single violation. 
 
 Don't be an idiot. Just do the work.
 
@@ -53,7 +53,7 @@ Groups of up to three people are allowed to submit a single solution for each ho
 
 **Group solutions must represent an honest collaborative effort by all members of the group.** In particular, groups must not delegate one problem to each group member; only the students who actively worked on a problem may add their names to the solution. **At a minimum, you must read, understand, and approve anything submitted with your name on it. Allowing someone else to add your name to a solution to which you made no contribution is plagiarism.** This does not mean that every student in a group must contribute good ideas or must help in the actual writing of every group solution. Asking "stupid" questions, proposing bad ideas, shooting down bad ideas, working out examples (even if they don't appear in the solution), uncovering bugs, and even just acting as a sounding board for other group members are all legitimate contributions.
 
-If a submitted homework contains plagiarized material, we will separately determine each student's culpability (if any) and penalty (if any), in accordance with Student Code. **By default, every member of the homework group will be given the same penalty.** (Again, this is the same standard that is applied to coauthors of research papers.) If you cheat, you are not only endangering your grade, and possibly your academic career, but your colleaguesâ€™ as well.
+If a submitted homework contains plagiarized material, we will separately determine each student's culpability (if any) and penalty (if any), in accordance with Student Code. **By default, every member of the homework group will be given the same penalty.** (Again, this is the same standard that is applied to co-authors of research papers.) If you cheat, you are not only endangering your grade, and possibly your academic career, but your colleagues as well.
 
 
 **Credit** This webpage was copied and modified from previous [semester(s)](https://courses.engr.illinois.edu/cs374/fa2020/integrity.html).

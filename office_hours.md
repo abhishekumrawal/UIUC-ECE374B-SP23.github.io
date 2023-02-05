@@ -3,7 +3,7 @@ layout: default
 title: Course Schedules
 ---
 
-Under Construction. There will be no offcie hours the first week (use Piazza). We'll begin OHs on the 23rd.
+Under Construction. There will be no office hours the first week (use Piazza). We'll begin OHs on the 23rd.
 
 #### Lectures
 
@@ -37,28 +37,33 @@ Under Construction. There will be no offcie hours the first week (use Piazza). W
     <td> BYA </td>
     <td> 10:00AM - 10:50AM </td>
     <td> Gautham </td>
-    <td> 2015 ECEB </td>
+    <!-- <td> <s>2055</s> 3101  Sidney Lu MEB </td> -->
+    <td> 2055 Sidney Lu MEB </td>
   </tr>
   <tr>
     <td> BYB </td>
     <td> 11:00AM - 11:50AM </td>
     <td> Sandhya </td>
-    <td> 2015 ECEB </td>
+    <td> 4039 CIF </td>
   </tr>
   <tr>
     <td> BYC </td>
     <td> 12:00PM - 12:50PM </td>
-    <td> Nicholas </td>
+    <td> Sindhu </td>
     <td> 2015 ECEB </td>
   </tr>
   <tr>
     <td> BYD </td>
     <td> 03:00PM - 03:50PM </td>
-    <td> Sindhu </td>
+    <td> Nicholas </td>
     <td> 2015 ECEB </td>
   </tr>
 </table>
 &nbsp;
 
 #### Office hours
-TBD. No OHs first week of classes. 
+Office hours will be conducted by the instructor(s), TAs and CAs. Office hours are not a place to check if your homework solutions are correct (the CAs do not even have access to the homework solutions). Office hours are meant to help you master the course concepts and assist you in working through any assignments when you are stuck. 
+
+{% include OHs_table.html %}
+
+
