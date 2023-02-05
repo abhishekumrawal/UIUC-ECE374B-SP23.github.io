@@ -17,7 +17,7 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_jrvgweav/282723252
 <style>
   table{
     border-collapse:separate;
-    border-spacing: 50px 10px;
+    border-spacing: 40px 10px;
   }
 </style>
 
@@ -74,13 +74,13 @@ The following figures show how the union, concatenation, Kleene star of regular 
   </tr>
   <tr>
     <td>
-      <img src="/img/lectures/Lec4/union.png" alt="Union" style="width: 300px;">
+      <img src="/img/lectures/Lec4/union.png" alt="Union" style="width: 320px;">
     </td>
     <td>
-      <img src="/img/lectures/Lec4/concat.png" alt="Concatenation" style="width: 300px;">
+      <img src="/img/lectures/Lec4/concat.png" alt="Concatenation" style="width: 320px;">
     </td>  
     <td>
-      <img src="/img/lectures/Lec4/kleene.png" alt="Kleene star" style="width: 300px;">
+      <img src="/img/lectures/Lec4/kleene.png" alt="Kleene star" style="width: 320px;">
     </td>  
   </tr>
 </table>
