@@ -33,7 +33,7 @@ This language cannot be considered regular, as recognizing it requires counting 
 
 <h4>Fooling Sets</h4>
 
-Before going into Fooling sets let’s understand what distinguishable states are and when are two strings considered distinguishable with respect to a language.
+Before diving into the concept of fooling sets, let's first understand the concept of distinguishable states and when two strings are considered distinguishable with respect to a language.
 
 <h4>Distinguishable States</h4>
 
@@ -72,13 +72,13 @@ These distinguishable prefixes will result in distinguishable states when we con
 <img src="/img/lectures/Lec6/Dstrings.png" alt="Concatenation" style="width: 500px;"> 
 
 Here,
-x and y are distinguishable prefixes as they end up in distinguishable state which cannot be merged.xw and yw are distinguishable as $xw \in L$ and $yw \not \in L$.
+x and y are distinguishable prefixes as they end up in distinguishable states which cannot be merged. xw and yw are distinguishable as $xw \in L$ and $yw \not \in L$.
 
 <h4>Fooling Sets-Definition</h4>
 
 For a language L over $\Sigma$ a set of strings F (could be infinite) is a fooling set or distinguishing set for L if every two distinct strings $x, y \in F$ are distinguishable.
 
-If a Language L has an infinite fooling set F then L is not regular.If a language has an infinite fooling set, it will lead to an infinite number of distinguishable prefixes, requiring an infinite number of states to recognize the language. Since a Finite automata (DFA/NFA) cannot have an infinite number of states, it is not possible to construct a Finite automata for the language, making it a non-regular language.
+If a Language L has an infinite fooling set F then L is not regular. If a language has an infinite fooling set, it will lead to an infinite number of distinguishable prefixes, requiring an infinite number of states to recognize the language. Since a Finite automata (DFA/NFA) cannot have an infinite number of states, it is not possible to construct a Finite automata for the language, making it a non-regular language.
 
 The fooling set method is a proof by contradiction technique which involves the following steps: 
 
@@ -104,21 +104,22 @@ Then, $xz = 0^{i}1^{i} \in L $
  
 And $yz= 0^{j}1^{i} \not \in L$ as $i \not = j$
 
-Thus, F is a fooling set for L.Because F is infinite, L cannot be regular.
+Thus, F is a fooling set for L. Because F is infinite, L cannot be regular.
 
 <h4>Closure Properties</h4>
 
 Using existing non-regular languages and regular languages we prove that some new language is non-regular.
-If we have to prove a Language L is non-regular.We combine L with known regular languages using regularity-preserving operations, to obtain a known non-regular language. 
+If we have to prove a Language L is non-regular. We combine L with known regular languages using regularity-preserving operations, to obtain a known non-regular language. 
 
 <img src="/img/lectures/Lec6/Closure.png" alt="Concatenation" style="width: 420px;"> 
  
 Consider, $L' = L \cap (0^* 1^*)$
 
-If L' is a known non-regular language then it implies that L is non-regular. Why? Suppose L is regular. Then since $(0^* 1^*)$ is regular, and regular languages are closed under intersection, L' also would be regular. But we know L' is not regular, a contradiction.This means that L is also not regular.
+If L' is a known non-regular language then it implies that L is non-regular. Why? Suppose L is regular. Then since $(0^* 1^*)$ is regular, and regular languages are closed under intersection, L' also would be regular. But we know L' is not regular, a contradiction. This means that L is also not regular.
 
 <h4>Additional Resources</h4>
-- [Sariel's Lecture 6](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+
+- [Sariel's Lecture 6](/https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 
