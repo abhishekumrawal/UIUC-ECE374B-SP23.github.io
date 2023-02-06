@@ -100,7 +100,7 @@ Then $x=0^{i},y=0^{j}$ for some non-negative integers i and j where $i \not = j$
 
 Let $z = 1^{i}$
 
-Then $xz = 0^{i}1^{j} \in L $
+Then $xz = 0^{i}1^{i} \in L $
  
 And $yz= 0^{j}1^{i} \not \in L$ as $i \not = j$
 
