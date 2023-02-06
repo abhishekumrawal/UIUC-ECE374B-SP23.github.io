@@ -90,17 +90,17 @@ The fooling set method is a proof by contradiction technique which involves the 
 
 <h4>Example</h4>
 
-Prove language $L = \{ 0^{n} 1^{n} | n \ge 0 \}$ is not regular using fooling sets.
+Prove language L = { $0^{n} 1^{n} | n \ge 0$ } is not regular using fooling sets.
 
 <h5>Solution</h5>
 
-Let $F = \{0^{i} | i \ge 0 \}$ be the fooling set for the Language L.
+Let, F = { $0^{i} | i \ge 0$ } be the fooling set for the Language L.
 
-Then $x=0^{i},y=0^{j}$ for some non-negative integers i and j where $i \not = j$ 
+Then, $x=0^{i},y=0^{j}$ for some non-negative integers i and j where $i \not = j$ 
 
-Let $z = 1^{i}$
+Let, $z = 1^{i}$
 
-Then $xz = 0^{i}1^{i} \in L $
+Then, $xz = 0^{i}1^{i} \in L $
  
 And $yz= 0^{j}1^{i} \not \in L$ as $i \not = j$
 
