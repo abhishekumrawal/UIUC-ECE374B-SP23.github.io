@@ -50,7 +50,7 @@ $\delta^* (p,w) \not \in A$  and  $\delta^* (q,w) \in A$
 
 <h4>Example</h4>
 
-<img src="/img/lectures/Lec6/Dstates.png" alt="Concatenation" style="width: 420px;"> 
+<img src="/img/lectures/Lec6/Dstates1.png" alt="Concatenation" style="width: 420px;"> 
 
 Let us take two states $q_{0}$ and $q_{1}$ from the above DFA.
 Let w=0,
@@ -69,7 +69,7 @@ These distinguishable prefixes will result in distinguishable states when we con
 
 <h5>Proof by figure</h5>
 
-<img src="/img/lectures/Lec6/Dstrings.png" alt="Concatenation" style="width: 500px;"> 
+<img src="/img/lectures/Lec6/Dstrings1.png" alt="Concatenation" style="width: 500px;"> 
 
 Here,
 x and y are distinguishable prefixes as they end up in distinguishable states which cannot be merged. xw and yw are distinguishable as $xw \in L$ and $yw \not \in L$.
@@ -111,7 +111,7 @@ Thus, F is a fooling set for L. Because F is infinite, L cannot be regular.
 Using existing non-regular languages and regular languages we prove that some new language is non-regular.
 If we have to prove a Language L is non-regular. We combine L with known regular languages using regularity-preserving operations, to obtain a known non-regular language. 
 
-<img src="/img/lectures/Lec6/Closure.png" alt="Concatenation" style="width: 420px;"> 
+<img src="/img/lectures/Lec6/Closure1.png" alt="Concatenation" style="width: 420px;"> 
  
 Consider, $L' = L \cap (0^* 1^*)$
 
