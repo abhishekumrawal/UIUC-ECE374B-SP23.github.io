@@ -69,7 +69,7 @@ These distinguishable prefixes will result in distinguishable states when we con
 
 <h5>Proof by figure</h5>
 
-<img src="/img/lectures/Lec6/Dstrings1.png" alt="Concatenation" style="width: 500px;"> 
+<img src="/img/lectures/Lec6/Dstrings1.png" alt="Concatenation" style="width: 600px;"> 
 
 Here,
 x and y are distinguishable prefixes as they end up in distinguishable states which cannot be merged. xw and yw are distinguishable as $xw \in L$ and $yw \not \in L$.
