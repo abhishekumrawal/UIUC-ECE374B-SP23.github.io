@@ -223,7 +223,7 @@ sumedh:
     OHs: 
       OH1:
         time-start: "10:00"
-        time-end: "11:00"
+        time-end: "12:00"
         day: Thursday
         location: ECEB 3034  
 
