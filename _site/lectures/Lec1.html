@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ECE374-B SP23: Lecture 1 - Course introduction and languages</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous"> -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">      
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link href="/css/font-awesome.min.css" rel="stylesheet"> 
+        Cabn't use this because icons stop working. but keepign this in in case font-awesome disappears-->     
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/github.css">
+        <link rel="stylesheet" href="/css/blockquote.css">
+        <link rel="stylesheet" href="/css/OHs_styling.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header d-flex
+                        flex-column
+                        flex-md-row justify-content-md-between">
+                <a href="/" class="">
+                    <img src="/img/374_logo-v2.svg"
+                         alt="Group logo" id="logo"> <!-- had some srcset stuff hear that I removed. I guess its for serving a logo at different resolution screens but it was messing up the page when it rendered on Github so I removed it.-->
+                </a>
+                <ul class="nav nav-pills justify-content-center align-items-end">
+
+                    
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/">
+                                Home
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/lectures.html">
+                                Lectures and Labs
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/homeworks.html">
+                                Homeworks
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/exams.html">
+                                Exams
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/policies.html">
+                                Policies
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/office_hours.html">
+                                Schedules
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+            </div>
+
+            
+
+            
+                <h1>Lecture 1 - Course introduction and languages</h1>
+            
+
+            <table id="customers">
+    <tr>
+      <th> Date </th>  
+      <th> Pre-lecture slides </th>
+      <th> Post-lecture scribbles</th>
+      <th> Lecture recording </th>
+    </tr>
+    <tr>
+      <td>
+        January 17 2023
+      </td>  
+      <td> 
+        
+        <a href="/materials/lecture_slides/lec1.pdf"
+            style="text-decoration: none">
+            <img class="lec_page_icons"
+                alt="Lecture 1 - Course introduction and languages"
+                title="Lecture 1 - Course introduction and languages Slides (Clean)"
+                src="/img/icons/slide_clean.png" />
+        </a>
+        
+      </td>
+      <td> 
+        
+        <a href="/materials/lecture_slides/lec1_scribbles_sp23.pdf"
+            style="text-decoration: none">
+            <img class="lec_page_icons"
+                alt="Lecture 1 - Course introduction and languages"
+                title="Lecture 1 - Course introduction and languages Slides (Scribble)"
+                src="/img/icons/slide_scribble.png" />
+        </a> 
+                
+      </td>
+      <td>  
+        
+        <a href="https://mediaspace.illinois.edu/media/t/1_dvrwq628/282723252"
+            style="text-decoration: none">
+            <img class="lec_page_icons"
+                alt="Lecture 1 - Course introduction and languages"
+                title="Lecture 1 - Course introduction and languages Recording"
+                src="/img/icons/recording.png" />
+        </a> 
+        
+      </td>
+    </tr>       
+  </table>
+  
+  &nbsp;
+
+<h2>Notes</h2>
+
+<div class="post">
+<p>Course policies can be found on the website <a href="https://ecealgo.com">ecealgo.com</a>.</p>
+
+<h4 id="big-questions">Big Questions</h4>
+
+<p>This course is focused on answering three big questions:</p>
+
+<ul>
+  <li>Given infinite time, how can we group problems by their “complexity” (Computability-theory)</li>
+  <li>Given finite time, but a problem we know is computable, how fast can we solve the problem (Algorithmic design)</li>
+  <li>Given a problem which is difficult to solve, can we infer how slow/fast we can solve it by comparing it to other known problems (Reductions)</li>
+</ul>
+
+<p> </p>
+<h4 id="two-types-of-complexity">Two types of complexity</h4>
+<p> </p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Computational Complexity</th>
+      <th>Algorithmic Complexity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/img/lectures/Lec1/Chomsky_Hierarchy-REfilled.png" alt="Chomsky Hierachy" style="height: 300px;" /></td>
+      <td><img src="/img/lectures/Lec1/Algorithmic_complexity.png" alt="Algorithmic Complexity" style="height: 300px;" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p> </p>
+<h4 id="why-languages">Why Languages?</h4>
+<p>Problems need to be represented as languages to be comparable. A language is a set of strings and each string represents and <em>instance</em> of the problem (a specific set of inputs and their correponding output). For example, the problem of adding two numbers together can be represented by the language:</p>
+
+<p><strong>Problem:</strong> Multiplying two integers together</p>
+
+<p><strong>Language:</strong> 
+\(L_{MULT2} = 
+\begin{bmatrix}
+  1 \times 1|1, &amp; 1 \times 2|2, &amp; 1 \times 3|3, \ldots\\
+  2 \times 1|2, &amp; 2 \times 2|4, &amp; 2 \times 3|6, \ldots \\
+  \vdots &amp; \vdots &amp; \vdots \\
+  n \times 1|n, &amp; n \times 2|2n, &amp; n \times 3|3n, \ldots \\
+\end{bmatrix}\)</p>
+
+<p> </p>
+<h4 id="things-i-forgot-to-mention">Things I forgot to mention</h4>
+<p>You would think that after talking for 1.25 hours, what else could there be to say. Well my friends, there is so much to know and by extension, just as must to teach! This is what I forgot to mention today.</p>
+
+<h6 id="group-homeworks">Group homeworks</h6>
+<p>Homeworks can be completed in groups of at most <strong>three students</strong> as discussed in the <a href="https://ecealgo.com/homeworks.html">homework policies</a>. Ideally, the way it should work is that each individual in a group looks at all the problems and comes up with some quick notes on possible solutions. Then the group would come together and attempt to reach a consensus on each problem. Finally, the solution writing and presentation would be divvyed up between the members so alleviate some of the presentation burden. However, I personally am conflicted on group work:</p>
+
+<ul>
+  <li><strong>Positive:</strong> If done correctly, it can be a powerful way where students learn from and bounce ideas off one-another. That is definitely a good thing.</li>
+  <li><strong>Negative:</strong> Since this is my sixth time doing this course, I believe about half the groups simply divvy up the problems and don’t even look at the problems not assigned to them. I’ve done a bit of analysis on past semesters where I’ve had a exam problem that was nearly identical to a homework problem and consistently, there’s been about 25-30% of students that clearly have never seen the problem before.</li>
+</ul>
+
+<p>In summary, I tend to fall of the side of discouraging group work. From what I’ve seen, the strongest performing individuals are over-represented in the group of students that do the homework solo. Also I have reduced the homework burden compared to past semesters so a single person should be fine doing all the problems themselves. 
+But, I won’t get rid of group homeworks all together. Like I say a lot, you guys are adults and should know what works best for you. <a href="https://www.youtube.com/watch?v=QIBMMVJFM4M">My job is to encourage behavior that I believe will be optimal for learning, not force it.</a></p>
+
+<h6 id="earlier-hw-assignment">Earlier HW Assignment</h6>
+<p>One of you made an excellent point after class that if I want to encourage starting homework early, I should post the homework on Friday instead on Monday. The argument is that if I post it on Friday, people usually have free time on the weekend to start right away while if I post on Monday, there are more things going on during the week and a lot of you won’t have time to get to it till the next weekend. What a excellent criticism (I mean that sincerely) and it something I hadn’t considered. SO I won’t promise anything, but the deal is I will do my absolute best to post the homework by Friday midnight. The homework will cover every learned the Tuesday-Friday right before it. The due date is still the next Monday (so it’ll be 10 days between the assignment and submission instead of 7). The one downside is that the next homework will get assigned before the current one is due which might be a little emotionally discouraging but the benefit of allowing people to start early right after completing the requisite lectures/labs outweighs that.</p>
+
+<h6 id="dres">DRES</h6>
+<ul>
+  <li>If you have a DRES accommodation, please email me directly (not sure if sending documents over Piazza is compliant with EHR policies or not, but why risk it ). Make sure I respond that I’ve recorded your accommodation! If I don’t respond email again.</li>
+  <li>Because of the limited staff, DRES students will take the exams at the <a href="https://www.disability.illinois.edu/academic-accommodations-and-supports/academic-accommodations/testing-accommodations">TAC</a> synchronously with the rest of the class. We’ll hammer out the details closer to MT1.</li>
+</ul>
+
+<h6 id="labsdiscussions-are-the-same-thing">Labs/Discussions are the same thing</h6>
+<p>Labs and discussions are the same thing. Sorry, I’ve used both terms interchangeably, I’ve taught this course so many times with different people, my mind keeps jumping timelines with the exact verbiage.</p>
+
+<p> </p>
+<h4>Additional Resources</h4>
+<ul>
+  <li><a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/00-intro.pdf">Jeff’s Textbook - Introduction and History</a></li>
+  <li><a href="https://jeffe.cs.illinois.edu/teaching/algorithms/models/01-strings.pdf">Jeff’s - Notes on strings</a></li>
+  <li><a href="https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/">Sariel’s Lecture 1</a></li>
+</ul>
+
+</div>
+
+<h4>Contributors</h4>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+<div class="person person-with-image row align-items-center">
+    <div class="col-auto">
+        
+
+
+
+
+
+
+
+    <a href="https://nickvashkani.com"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Nickvash Kani"
+             title="Nickvash Kani"
+             src="/img/people/Kani.png" />
+    
+    </a>
+
+
+    </div>
+    <div class="col pl-0">
+        <h6 class="person-name"> 
+<a href="https://nickvashkani.com"> Nickvash Kani </a>
+ </h6>
+        
+        <div class="email">kani@illinois.edu</div>
+        
+    </div>
+</div>
+
+    
+</section>
+
+
+            <div class="footer">
+                <p>
+                    <a href="http://ece.illinois.edu/">Electrical and Computer Engineering Department</a>
+                    at the
+                    <a href="http://illinois.edu/">University of Illinois at Urbana-Champaign</a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                processEscapes: true
+                }
+            });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>        
+    </body>
+</html>
