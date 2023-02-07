@@ -65,7 +65,7 @@ Any regular expression can be converted to an NFA using the Thompson’s Algorit
 </table>
 <br>
 Example: Construct a NFA for (101 + 010) <br>
-<img src="/img/lectures/Lec5/tp_eg.png" alt="Example" style="height:500px;" >
+<img src="/img/lectures/Lec5/tp_eg.png" alt="Example" style="width:1000px;" >
 <h4> 4. DFA → Regular Expressions </h4>
 
 A Regular expression can be obtained from a DFA using two methods.
