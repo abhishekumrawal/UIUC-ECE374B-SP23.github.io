@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ECE374-B SP23: Lecture 7 - Context-Free Languages and Push-down Automata</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous"> -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">      
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link href="/css/font-awesome.min.css" rel="stylesheet"> 
+        Cabn't use this because icons stop working. but keepign this in in case font-awesome disappears-->     
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/github.css">
+        <link rel="stylesheet" href="/css/blockquote.css">
+        <link rel="stylesheet" href="/css/OHs_styling.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header d-flex
+                        flex-column
+                        flex-md-row justify-content-md-between">
+                <a href="/" class="">
+                    <img src="/img/374_logo-v2.svg"
+                         alt="Group logo" id="logo"> <!-- had some srcset stuff hear that I removed. I guess its for serving a logo at different resolution screens but it was messing up the page when it rendered on Github so I removed it.-->
+                </a>
+                <ul class="nav nav-pills justify-content-center align-items-end">
+
+                    
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/">
+                                Home
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/lectures.html">
+                                Lectures and Labs
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/homeworks.html">
+                                Homeworks
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/exams.html">
+                                Exams
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/policies.html">
+                                Policies
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/office_hours.html">
+                                Schedules
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+            </div>
+
+            
+
+            
+                <h1>Lecture 7 - Context-Free Languages and Push-down Automata</h1>
+            
+
+            <table id="customers">
+    <tr>
+      <th> Date </th>  
+      <th> Pre-lecture slides </th>
+      <th> Post-lecture scribbles</th>
+      <th> Lecture recording </th>
+    </tr>
+    <tr>
+      <td>
+        February 07 2023
+      </td>  
+      <td> 
+        
+        <a href="/materials/lecture_slides/lec7.pdf"
+            style="text-decoration: none">
+            <img class="lec_page_icons"
+                alt="Lecture 7 - Context-Free Languages and Push-down Automata"
+                title="Lecture 7 - Context-Free Languages and Push-down Automata Slides (Clean)"
+                src="/img/icons/slide_clean.png" />
+        </a>
+        
+      </td>
+      <td> 
+        
+          Not available yet
+                
+      </td>
+      <td>  
+        
+          Not available yet
+        
+      </td>
+    </tr>       
+  </table>
+  
+  &nbsp;
+
+<h2>Notes</h2>
+
+<div class="post">
+<!-- Gautham's content begin-->
+<h3 id="context-free-language">Context Free Language</h3>
+<ul>
+  <li>CFL is a higher level language when compared to Regular Language.</li>
+  <li>CFL is a language that can be generated by some <strong>Context Free Grammar</strong> and is a set of all languages that can be accepted by a <strong>Push-down Automata</strong>.
+<br /><br /></li>
+</ul>
+
+<h3 id="context-free-grammar">Context Free Grammar</h3>
+<p><strong>Formal Definition</strong>: Defined by 4 tuples <em>G = (V, T, P, S)</em></p>
+<ul>
+  <li>V = Finite set of Variables or Non-Terminal Symbols</li>
+  <li>T = Finite set of Terminal Symbols</li>
+  <li>S = Start symbol</li>
+  <li>P = Finite set pf Production rules
+    <ul>
+      <li>Each production rule is represented as A→$\alpha$</li>
+      <li>Where $\alpha$ is a string in ${V \cup T}^*$ and A $\in$ V
+<br /></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Example: For generating a language with equal number of 0s and 1s of the form $0^{n}1^{n}$. We will have the G = ({S, A}, {0, 1}, {S→0A1, A→0A1 | $\varepsilon$}, S)</p>
+<ul>
+  <li>S→0A1   (using S→0A1)</li>
+  <li>→00A11   (using A→0A1)</li>
+  <li>→000A111  (using A→0A1)</li>
+  <li>→000111   (using A→$\varepsilon$)</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="push-down-automata">Push-down Automata</h3>
+<ul>
+  <li>A machine that genrates Context Free Grammar</li>
+  <li>It is more powerful than a Finite State Machine and also has more memory</li>
+  <li>PDA = FSM +  <strong>Stack</strong></li>
+  <li>Has 3 components:
+    <ul>
+      <li>Input</li>
+      <li>Finite Control Unit</li>
+      <li>Stack
+<br /><br /></li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/img/lectures/Lec7/PDA_Diagram.png" alt="PDA Diagram" style="height: 300px;" /></p>
+
+<p><strong>Formal Definition</strong>: Defined by 6 tuples <em>P = (Q, $\Sigma$, $\Gamma$, $\delta$, s, A)</em></p>
+<ul>
+  <li>Q = finite set of states</li>
+  <li>$\Sigma$ = finite set of input alphabets</li>
+  <li>$\Gamma$ = finite set of stack alphabets</li>
+  <li>s = start state</li>
+  <li>A = set of accepting states</li>
+  <li>$\delta$ = Transition Function</li>
+</ul>
+
+<p><b>Transition Function $\delta$ </b><br />
+$\delta$ = $Q\times\Sigma \cup {\varepsilon}\times\Gamma \cup {\varepsilon}$ → $P(Q \times (\Gamma\cup{\varepsilon}))$</p>
+<ul>
+  <li>$\delta(q, a, X)$ → $(p, \gamma)$</li>
+  <li>$q$ is a state in $Q$, $a$ is either an input in $\Sigma$ or $a=\varepsilon$, $X$ is a Stack symbol that ios part of $\Gamma$</li>
+  <li>$p$ is a new state and $\gamma$ is string of stack symbols that replaces $X$ at the top of the stack
+    <ul>
+      <li>If $\gamma = \varepsilon$, then stack is popped</li>
+      <li>If $\gamma = X$, then stack is unchanged</li>
+      <li>If $\gamma = YZ$, then X is replaced by $Z$ and $Y$ is pushed into the stack</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/img/lectures/Lec7/PDA_BasicGraph.png" alt="PDA Basic Graph" style="width: 300px;" /></p>
+
+<ul>
+  <li>$a$ = Input Symbol</li>
+  <li>$b$ = Symbol on top of the stack which is pooped.
+    <ul>
+      <li>If $b=\varepsilon$, then stack is neither read or popped.</li>
+    </ul>
+  </li>
+  <li>$c$ = The Symbol that is pushed onto the stack
+    <ul>
+      <li>If $c=\varepsilon$, then nothing is pushed.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br />
+Example: Let’s construct a PDA that accepts the language $L = {0^n1^n | n\ge1}$
+<br />
+<img src="/img/lectures/Lec7/PDA_0n1n.png" alt="PDA Example" style="height: 300px;" /></p>
+
+<h4 id="closure-properties-of-cfl"><strong>Closure Properties</strong> of CFL</h4>
+<p>Given two CFG $G_1 = (V_1, T, P_1, S_1)$ and $G_2 = (V_2, T, P_2, S_2)$ and assume that $V_1 \cap V_2 = \phi$. Let $L1$ and $L2$ be languages produced by $G1$ and $G2$ respectively.</p>
+<ul>
+  <li>CFLs are closed under <em>Union</em>. $L_1 \cup L_2$ is  a CFL.</li>
+  <li>CFLs are closed under <em>Concatenation</em>. $L_1 . L_2$ is  a CFL.</li>
+  <li>CFLs are closed under <em>Kleene star</em>. If $L$ is a CFL $\implies L^*$ is a CFL.</li>
+  <li>CFLs are <strong>not</strong> closed under <em>Intersection</em></li>
+  <li>CFLs are <strong>not</strong> closed under <em>Complement</em></li>
+</ul>
+
+<!-- Gautham's content end-->
+
+<h4>Additional Resources</h4>
+
+<ul>
+  <li><a href="http://jeffe.cs.illinois.edu/teaching/algorithms/models/05-context-free.pdf">Jeff’s Notes on Context Free language</a></li>
+  <li><a href="https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/">Sariel’s Lecture 7</a></li>
+</ul>
+
+
+</div>
+
+<h4>Contributors</h4>
+<section class="people project-people">
+    
+</section>
+
+
+            <div class="footer">
+                <p>
+                    <a href="http://ece.illinois.edu/">Electrical and Computer Engineering Department</a>
+                    at the
+                    <a href="http://illinois.edu/">University of Illinois at Urbana-Champaign</a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                processEscapes: true
+                }
+            });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>        
+    </body>
+</html>

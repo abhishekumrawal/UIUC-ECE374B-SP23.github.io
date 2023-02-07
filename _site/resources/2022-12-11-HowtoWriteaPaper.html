@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ECE374-B SP23: Research 101: Writing a paper</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous"> -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">      
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link href="/css/font-awesome.min.css" rel="stylesheet"> 
+        Cabn't use this because icons stop working. but keepign this in in case font-awesome disappears-->     
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/github.css">
+        <link rel="stylesheet" href="/css/blockquote.css">
+        <link rel="stylesheet" href="/css/OHs_styling.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header d-flex
+                        flex-column
+                        flex-md-row justify-content-md-between">
+                <a href="/" class="">
+                    <img src="/img/374_logo-v2.svg"
+                         alt="Group logo" id="logo"> <!-- had some srcset stuff hear that I removed. I guess its for serving a logo at different resolution screens but it was messing up the page when it rendered on Github so I removed it.-->
+                </a>
+                <ul class="nav nav-pills justify-content-center align-items-end">
+
+                    
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/">
+                                Home
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/lectures.html">
+                                Lectures and Labs
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/homeworks.html">
+                                Homeworks
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/exams.html">
+                                Exams
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/policies.html">
+                                Policies
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/office_hours.html">
+                                Schedules
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+            </div>
+
+            
+
+            
+                <h1>Research 101: Writing a paper</h1>
+            
+
+            <h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+<div class="person person-with-image row align-items-center">
+    <div class="col-auto">
+        
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt=""
+             viewBox="0 0 100 100">
+            <title></title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                
+            </text>
+        </svg>
+    
+
+
+    </div>
+    <div class="col pl-0">
+        <h6 class="person-name">  </h6>
+        
+    </div>
+</div>
+
+    
+        
+        
+
+
+
+
+
+
+<div class="person person-with-image row align-items-center">
+    <div class="col-auto">
+        
+
+
+
+
+
+
+
+    <a href="https://nickvashkani.com"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Nickvash Kani"
+             title="Nickvash Kani"
+             src="/img/people/Kani.png" />
+    
+    </a>
+
+
+    </div>
+    <div class="col pl-0">
+        <h6 class="person-name"> 
+<a href="https://nickvashkani.com"> Nickvash Kani </a>
+ </h6>
+        
+        <div class="email">kani@illinois.edu</div>
+        
+    </div>
+</div>
+
+    
+</section>
+
+<p class="date">December 11, 2022</p>
+
+<div class="post">
+<h3 id="introduction">Introduction</h3>
+
+<p>For better or worse, in today’s modern society your worth isn’t determined by the work you do, it’s determined by the work that is shared with society as a whole. For that reason, the writing and presentation of your research often matters more than the research itself! For that reason, the most important skill you learn in school is how to present your work. In academia most of your work will be presented as acadmeic papers.</p>
+
+<p>Academic writing is tricky.  Unfortunately, technical writing is not emphasized in school, so it can be hard for new researchers to write good papers.  This document gives insight into how to effectively write a technical data science/machine learning paper for a conference or a journal.</p>
+
+<h3 id="starting-the-paper">Starting the Paper</h3>
+
+<p>The start of a good paper begins with the start of the experiments.  It can be tempting to jump right into a new project, but having a bulletproof action plan for the project will make writing a paper down the line much easier.  Action plans should outline the following:</p>
+
+<ul>
+  <li><strong>Problem/Thesis</strong>: What will this paper accomplish?  Are you solving a problem, putting out a novel dataset/model, or summarizing an area in AI that requires an updated review paper?</li>
+  <li><strong>Datasets and Models</strong>:  This will become your methods section.  Be sure to write down how the datasets are generated/where they come from and model implementation details.</li>
+  <li><strong>Experiments</strong>: What sort of experiments will you be running to prove your problem/thesis?
+    <ul>
+      <li>This is also a great stage of the planning process to consider what sorts of graphs and tables you might want to include.</li>
+    </ul>
+  </li>
+  <li><strong>References</strong>: What papers are you building your research off of?  Be sure to note papers of models and datasets you use too.</li>
+</ul>
+
+<p>I can not recommend keeping a document with notes containing all these details enough.  What you write in your notes during the project will become the foundation of your first draft.</p>
+
+<p>Of course, the action plan is only a jumping-off point.  As you progress through the experiments, you may find new and important insights that you want to include in your paper, or maybe some analysis didn’t work.  As this happens, be sure to take note of everything that worked and didn’t work, and why.</p>
+
+<h3 id="structure-of-paper">Structure of Paper</h3>
+
+<p>Every good paper has a ‘narrative’, or a central idea it tries to convey.  Narrative writing is important because it makes a paper more engaging and easier to follow.  A narrative can be broken down into a problem definition, proposed solutions, and the results of the proposed solutions- like the ‘introduction’, ‘rising action’, and ‘resolution’ of a novel.  Each section of the paper should support this narrative.</p>
+
+<p>The following sections describe the main sections you might find in an academic paper with some tips and tricks for writing each section.  It should be noted that not every paper has to be constrained to only the sections listed here, this is just the most common way papers are structured.</p>
+
+<h4 id="abstract">Abstract</h4>
+
+<p>Like a blurb for a novel, the abstract should describe the paper well and in a way that grabs the reader’s attention. A good abstract succinctly summarizes the problem and your study’s main results and conclusions. Typically, abstracts should be 150-200 words long. Another minor consideration for an abstract is search engine optimization. Include keywords and phrases that a potential reader might search in Google Scholar.</p>
+
+<h4 id="introduction-1">Introduction</h4>
+
+<p>The three main functions of an introduction section are as follows: i.) familiarize the reader with the problem ii.) cover previous work done in the field iii.) give an overview of your paper.  First, state the problem and convey the real-world implications of this problem (E.I. why the reader might care about this topic).  Next, summarize the major developments related to the problem or work you are basing your paper on.  Then, describe your methodologies.  Be brief, as your methodologies will be explained thoroughly in the methods and results section of the paper.  End the introduction with your thesis statement- what are the arguments/conclusions you are trying to assert in your paper?</p>
+
+<p>Finally, some authors include an overview of the structure of the paper (I.E., Section 2 introduces the models studied in this work, etc.).  This is not a requirement, so it is up to your discretion.</p>
+
+<h4 id="methods">Methods</h4>
+
+<p>If the introduction is the ‘why’ of the narrative, the methods section is the ‘how’ of the narrative.  It is the section to detail model implementation and dataset information.  Be as explicit as possible. Use formulas and pictures to explain model architectures.  A reader should be able to implement your methods from your description.</p>
+
+<p>The methods section should also include a description of all the data used in your paper.  If you used a pre-made dataset, including how one can access it.  If you compiled the dataset yourself, explain how you did it (in a way that the reader can reproduce it!).  Other important details to consider adding are how the data was cleaned and statistics about the dataset.  Important statistics to highlight can include distributions of the data attributes or output classes.  Of course, this is not a requirement and should be added if relevant.</p>
+
+<p>Details of experiments can be put here or in the results section.  In Computer Science academic writing, it is a convention to have the description of the experiments in the results section, so that discourse can be found in the next section.</p>
+
+<h4 id="results">Results</h4>
+
+<p>This is the best part of the paper!  Here you give an overview of the experiments you ran and interpret the results.  As before, the reader should be able to replicate your experiments from your writing.  Be as detailed as possible when explaining how results were obtained.  After each experiment description, include the results (usually in the form of a table or graph) and a breakdown of the results.  This breakdown should start with stating the trends in the table/graph- I.E. which model does better on a task, how is model performance impacted by an attribute of the data, etc.  Finally, conclude the analysis of the experiment with conclusions that can be drawn from the results- I.E. how do these results relate to the thesis, what about the models or the data could explain this result, etc.</p>
+
+<p>This section is perhaps the most integral section for narrative writing in academic articles.  Each experiment should contribute pertinent insight to support the thesis of the paper.  This, however, does not mean cherry-picking data to make your argument look good.</p>
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p>The first part of a conclusion is a lot like an introduction. It should start with a re-summarization of the problem and its implications, your results, and the thesis.  Because the reader ostensibly reads your paper, this part should be brief. Next, a good conclusion explores the high-level implications of your work and discusses ideas for future analysis in the field.</p>
+
+<h3 id="editing">Editing</h3>
+
+<p>Once you have finished your paper, it’s time to edit!  This is the time to correct any awkward grammar and make sure the narrative of your paper flows. Here are a few tips for editing your paper.</p>
+
+<ul>
+  <li>Use spelling and grammar-checking software. With <a href="https://app.grammarly.com/">Grammarly</a>, you can paste in an entire section of your paper and fix quick grammar and spelling errors.  While this is not a fix-all,  it is a great start and should catch a lot of your typos.</li>
+  <li>When in doubt, break up long sentences into short sentences.</li>
+  <li><strong>Read your writing aloud.</strong> Yes if someone hears, you might be a little embarrassed but it is shocking how well this works. You brain is a amazing machine which tries to fill in and correct any missing/weird pieces of information. Reading aloud to yourself stops it’s smoothing function and allows you to hear what you wrote (not what you think you wrote).</li>
+</ul>
+
+<p>In general expect 4-5 revisions minimum before a manuscript can be sent out into the world. Yes it’s a lot of work, which is why publishing a paper is a big deal!</p>
+
+<h3 id="references">References</h3>
+
+<p>Some useful links the group members have foudn useful over the years:</p>
+
+<ul>
+  <li><a href="https://tandy.cs.illinois.edu/writing.html">Tandy Warnow’s great guide on academic writing</a></li>
+</ul>
+
+
+</div>
+
+
+            <div class="footer">
+                <p>
+                    <a href="http://ece.illinois.edu/">Electrical and Computer Engineering Department</a>
+                    at the
+                    <a href="http://illinois.edu/">University of Illinois at Urbana-Champaign</a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                processEscapes: true
+                }
+            });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>        
+    </body>
+</html>
