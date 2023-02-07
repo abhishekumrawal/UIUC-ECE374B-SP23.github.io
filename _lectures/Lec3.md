@@ -96,6 +96,7 @@ In depth in Lecture 5
 
 
 
+
 &nbsp;
 <h4>Additional Resources</h4>
 - [Jeff's - Notes on Finite State Automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/03-automata.pdf)
