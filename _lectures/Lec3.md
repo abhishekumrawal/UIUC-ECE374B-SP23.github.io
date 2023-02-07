@@ -33,7 +33,7 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_yweasyw8/282723252
 - $A$ = \{ $q_1$ \}
 - $\delta(q_0,0) = q_0$,  $\delta(q_1,1) = q_1$,  $\delta(q_0,1) = q_1$,  $\delta(q_1,0) = q_0$ 
 
-<img src="/img/lectures/tikz_lec3_fig_example.PNG" alt="Example2" style="height: 100px;">
+<img src="/img/lectures/Lec3/tikz_lec3_fig_example.PNG" alt="Example2" style="height: 100px;">
 
 #### **Definitions**:
 - DFA M accepts a string w iff the unique walk begining at the start state and sequentially inputing the symbols in w ends on an accepts state.
@@ -54,7 +54,7 @@ If $L$ is accepted by $M_1 = (Q, \Sigma, s, A, \delta)$, then $\bar{L}$ is accep
 
 **Example:**
 
-<img src="/img/lectures/tikz_lec3_fig_compliment.PNG" alt="Example2" style="height: 200px;">
+<img src="/img/lectures/Lec3/tikz_lec3_fig_compliment.PNG" alt="Example2" style="height: 200px;">
 
 #### **Languages accepted by DFAs are closed under intersection**
 
@@ -68,7 +68,7 @@ If $L_1$ is accepted by $M_1 = (Q_1, \Sigma, s_1, A_1, \delta_1)$ and $L_2$ is a
 
 **Example:**
 
-<img src="/img/lectures/tikz_lec3_fig_intersection.PNG" alt="Example3" style="height: 300px;">
+<img src="/img/lectures/Lec3/tikz_lec3_fig_intersection.PNG" alt="Example3" style="height: 300px;">
 
 #### **Languages accepted by DFAs are closed under union**
 
@@ -82,7 +82,7 @@ If $L_1$ is accepted by $M_1 = (Q_1, \Sigma, s_1, A_1, \delta_1)$ and $L_2$ is a
 
 **Example:**
 
-<img src="/img/lectures/tikz_lec3_fig_union.PNG" alt="Example4" style="height: 300px;">
+<img src="/img/lectures/Lec3/tikz_lec3_fig_union.PNG" alt="Example4" style="height: 300px;">
 
 ### Constructing Regular Expressions from DFAs
 In depth in Lecture 5
