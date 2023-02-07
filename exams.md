@@ -8,113 +8,94 @@ title: Exams
     <th> # </th>
     <th>Topic</th>
     <th>Date</th>
-    <th>Sample Exam</th>
+    <th>Skillset</th>
     <th>Cheat Sheet</th>
-    <th>Questions</th>
-    <th>Solutions</th>
+    <th>Fodder</th>
+    <th>Sample</th>
+    <th>Exam & Solutions</th>
   </tr>
-  <tr>
-    <td>1</td>
-    <td>Language Complexity</td>
-    <td> Feb-16</td>
-    <td> </td>
-    <td> </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Algorithms</td>
-    <td> Apr-4</td>
-    <td> </td>
-    <td> </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr> 
-  <tr>
-      <td>3</td>
-    <td>NP-Completeness and Decidability</td>
-    <td> Apr-27</td>
-    <td> </td>
-    <td> </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Final</td>
-    <td> TBD </td>
-    <td> </td>
-    <td> </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Questions"
-                src="{{ site.base }}/img/icons/lab_questions.png" />
-        </a>  -->
-    </td>
-    <td> 
-        <!-- <a href="{{ site.base }}/homeworks/test-HW-sol.pdf"
-            style="text-decoration: none">
-            <img class="homework-icon"
-                alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Solutions"
-                src="{{ site.base }}/img/icons/lab_solutions.png" />
-        </a>  -->
-    </td>
-  </tr>
+  {% for iteml in site.data.exam %}  
+    {% assign item = iteml[1] %}
+    <tr>
+        <td>{{ item.num }}</td>
+        <td> {{ item.topic }} </td>
+        <td> {{ item.date | date: "%b %d" }} </td>
+        <td> 
+        <!-- Skillset  -->
+            {% if item.skillset %}
+            <a href="{{ site.base }}{{ item.skillset }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ iteml[0] }} skillset"
+                    title="{{ iteml[0] }} skillset"
+                    src="{{ site.base }}/img/icons/notes.png" />
+            </a>
+            {% endif %}
+        </td>
+        <td> 
+        <!-- Cheatsheet  -->
+            {% if item.cheat_sheet %}
+            <a href="{{ site.base }}{{ item.cheat_sheet }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ iteml[0] }} cheat sheet"
+                    title="{{ iteml[0] }} cheat sheet"
+                    src="{{ site.base }}/img/icons/cheat_sheet_icon.png" />
+            </a>
+            {% endif %}
+        </td>
+        <td>
+        <!-- Fodder  -->
+            {% if item.fodder %}
+            <a href="{{ site.base }}{{ item.fodder }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ iteml[0] }} fodder"
+                    title="{{ iteml[0] }} fodder"
+                    src="{{ site.base }}/img/icons/lab_questions.png" />
+            </a>
+            {% endif %}
+        </td>
+        <td> 
+        <!-- Sample Exam  -->
+            {% if item.samp_exam %}
+            <a href="{{ site.base }}{{ item.samp_exam }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ iteml[0] }} sample exam"
+                    title="{{ iteml[0] }} sample exam"
+                    src="{{ site.base }}/img/icons/lab_questions.png" />
+            </a>
+            {% endif %}
+        </td>
+        <td> 
+            {% if item.exam_questions %}
+            <a href="{{ site.base }}{{ item.samp_exam }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ iteml[0] }} exam questions"
+                    title="{{ iteml[0] }} exam questions"
+                    src="{{ site.base }}/img/icons/lab_questions.png" />
+            </a>
+            {% endif %}
+            {% if item.solutions-link %}
+            <a href="{{ site.base }}{{ item.solutions-link }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ iteml[0] }} exam solutions"
+                    title="{{ iteml[0] }} exam solutions"
+                    src="{{ site.base }}/img/icons/lab_solutions.png" />
+            </a>
+            {% endif %}
+        </td>
+    </tr>        
+
+
+  {% endfor %}
 
 </table>
+
+
 
 &nbsp;
 
