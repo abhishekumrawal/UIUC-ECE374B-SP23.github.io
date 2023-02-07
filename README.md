@@ -10,7 +10,7 @@ This website is a culmination of a lot of different code/design snippets from a 
 - Date formatting from [Alan Smith](https://www.alanwsmith.com/posts/jekyll-and-github-pages-liquid-date-formatting-examples--20emx2csq8do)
 
 
-And above all, most of the materials are adapted from prior worksfrom all the prior 374 instructors: 
+And above all, most of the materials are adapted from prior works from all the prior 374 instructors: 
 - [Sariel Har-Peled](https://sarielhp.org/)
 - [Andrew Miller](https://soc1024.ece.illinois.edu/)
 - [Jeff Erickson](https://jeffe.cs.illinois.edu/)
