@@ -1,0 +1,45 @@
+MT1: 
+  num: 1
+  topic: Languages complexity 
+  date: 2023-02-16
+  samp_exam: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/sample_midterm1.pdf
+  skillset: materials/exams/skillset_midterm_1.pdf
+  cheat_sheet: materials/exams/main_MT1.pdf
+  fodder: materials/exams/mt_1_fodder.pdf
+  exam_questions:
+  exam_solutions: 
+
+MT2: 
+  num: 2
+  topic: Algorithms 
+  date: 2023-04-02
+  samp_exam: 
+  skillset: materials/exams/mt_2_skillset.pdf
+  cheat_sheet: materials/exams/main_MT2.pdf
+  fodder: 
+  exam_questions:
+  exam_solutions: 
+
+MT3: 
+  num: 3
+  topic: NP-completeness and decidability 
+  date: 2023-04-27
+  samp_exam: 
+  skillset: materials/exams/mt_3_skillset.pdf
+  cheat_sheet: materials/exams/main_MT3.pdf
+  fodder: 
+  exam_questions:
+  exam_solutions: 
+
+Final: 
+  num: 4
+  topic: (Final) All of the above 
+  date: 2023-05-08
+  samp_exam: 
+  skillset: materials/exams/final_skillset.pdf
+  cheat_sheet: materials/exams/main_Final.pdf
+  fodder: 
+  exam_questions:
+  exam_solutions: 
+
+
