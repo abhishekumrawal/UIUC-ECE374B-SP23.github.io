@@ -20,7 +20,7 @@ There are three components to your raw total:
     - I don't want to be the arbiter of what is and isn't a valid reason to miss your work (and neither should students have to plead and hope for mercy from professors). That is why I constructed this policy that is merciful but will apply it strictly. If you have a serious issue that cause you to miss two or more midterms, you need to contact your department's advising office and/or the [emergency dean](/policies/stressed).
 - ICES form: 1%
     - Every semester I send minimum of 3-4 reminder emails asking students to complete the ICES forms and I've never been able to get above 35% participation.
-    - I need feedback because I liek to iterate on the course every semester and try to make it better. This is a very different course than 2 years ago and I hope it'll be different in 2 years time as well. 
+    - I need feedback because I like to iterate on the course every semester and try to make it better. This is a very different course than 2 years ago and I hope it'll be different in 2 years time as well. 
     - Prior to the grade estimate release, you must submit a screenshot on gradescope that shows you've completed your ICES evaluations. If you don't you will get a zero for this part of your grade. 
     - While this isn't a major component, many students have been less that 1% away from the next grade cutoff. Don't risk it, take 5 minutes and fill out the form (for all your courses).
 
