@@ -11,7 +11,7 @@ layout: lecture
 deliverydate: 2023-02-09
 link-slides: /materials/lecture_slides/lec8.pdf
 link-scribbles: /materials/lecture_slides/lec8_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_yweasyw8
+link-recording: https://mediaspace.illinois.edu/media/t/1_3ib6g4rr/282723252
 ---
 
 Nothing so far.....
