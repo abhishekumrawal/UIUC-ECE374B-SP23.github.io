@@ -20,15 +20,15 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_nvnaa7b6
 A Non-regular language is a type of formal language that cannot be defined by a regular expression or recognized by a finite automata. If a language contains strings where the necessary memory increases with the length of the string, it is probably not a regular language.
 <h4>Example</h4>
 A Simple and Canonical Non-regular Language:
-
-L = { $0^{n} 1^{n}$| $n \ge 0$} 
+ 
+L = { $0^{n} 1^{n}$ \| $n \ge 0$}
 
 This language cannot be considered regular, as recognizing it requires counting the number of zeros in the input, which cannot be done using a fixed amount of memory. 
 
 <h4>Methods for Proving Non-regularity</h4>
 
-1) Pumping Lemma</br>
-2) Fooling sets(Distinguishing suffixes)</br>
+1) Pumping Lemma<br>
+2) Fooling sets(Distinguishing suffixes)<br>
 3) Closure properties
 
 <h4>Fooling Sets</h4>
@@ -90,11 +90,11 @@ The fooling set method is a proof by contradiction technique which involves the 
 
 <h4>Example</h4>
 
-Prove language $L = \\{0^{n} 1^{n} | n \ge 0 \\}$ is not regular using fooling sets.
+Prove language L = $\\{0^{n} 1^{n} \| n \ge 0 \\}$ is not regular using fooling sets.
 
 <h5>Solution</h5>
 
-Let, $F = \\{0^{i} | i \ge 0\\}$ be the fooling set for the Language L.
+Let, F = $\\{0^{i} \| i \ge 0\\}$ be the fooling set for the Language L.
 
 Then, $x=0^{i},y=0^{j}$ for some non-negative integers i and j where $i \not = j$ 
 
