@@ -22,8 +22,8 @@ hw3:
   num-problems: 5
   assigned-date: 2023-02-06
   due-date: 2023-02-13
-  questions-link:  /materials/homeworks/hw3.pdf
-  solutions-link:
+  questions-link: /materials/homeworks/hw3.pdf
+  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw3_sol.pdf
 
 hw4: 
   num: 4
