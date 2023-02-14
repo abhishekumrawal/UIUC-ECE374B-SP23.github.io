@@ -105,7 +105,7 @@ Couple things to note about exams:
 
 ### Exam Policies
 
-Besides the obvious "don't cheat" exam policies outlined in the 
+Besides the obvious "don't cheat" exam policies outlined in the [policies page](/policies/cheating) you should know about the following exam procedures: 
 
 #### Exam Drop
 
@@ -124,7 +124,7 @@ This lets me use problems that many of you have seen before but know that the pe
 
 #### Use pen
 
-The exams will be scanned and uploaded to gradescope where they will be graded by the TAs. Unfortunately, last semester we had a problem with a number of individuals that used a pencil with a light touch causing the exam to be illegible. Therefore we're banning pencils. If we see a exam that is difficult to read, we will take off points.  
+The exams will be scanned and uploaded to Gradescope where they will be graded by the TAs. Unfortunately, last semester we had a problem with a number of individuals that used a pencil with a light touch causing the exam to be illegible. Therefore, we're banning pencils. I'm not going to go around confiscating pencils like some weird pen nazi, but if we see an exam that is difficult to read, we will take off points.  
 
 
 ### Regrades

@@ -131,3 +131,4 @@ The extended transition function is more like a syntactic sugar derived from the
 <h4>Additional Resources</h4>
 - [Jeff's - Notes on non-deterministic automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/04-nfa.pdf)
 - [Sariel's Lecture 2](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+- [A video by Kevin Lim on language transformations](https://www.youtube.com/watch?v=PuZFHpmOotQ) 
