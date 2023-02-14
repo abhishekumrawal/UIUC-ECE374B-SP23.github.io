@@ -226,6 +226,12 @@ sumedh:
         time-end: "12:00"
         day: Thursday
         location: ECEB 3034  
+      OH2:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Tuesday
+        location: ECEB 3020  
+
 
 # sahil:
 #     display_name: "Sahil Kamboj"
