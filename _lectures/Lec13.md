@@ -4,7 +4,7 @@ placeholder: false
 back-color: fffffa
 card-link: LecLink13
 # subtitle: And a subtitle
-description: "Important one ... even though you probably won't see many instances fo dynamic programming in the real world, it is a favorite of FANNG interviews" 
+description: "Important one ... even though you probably won't see many instances of dynamic programming in the real world, it is a favorite of FANNG interviews." 
 people:
 layout: lecture
 # no-link: true  # stops link to page 
