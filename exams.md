@@ -70,7 +70,7 @@ title: Exams
         </td>
         <td> 
             {% if item.exam_questions %}
-            <a href="{{ site.base }}{{ item.samp_exam }}"
+            <a href="{{ site.base }}{{ item.exam_questions }}"
                 style="text-decoration: none">
                 <img class="homework-icon"
                     alt="{{ iteml[0] }} exam questions"
