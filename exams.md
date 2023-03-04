@@ -78,8 +78,8 @@ title: Exams
                     src="{{ site.base }}/img/icons/lab_questions.png" />
             </a>
             {% endif %}
-            {% if item.solutions-link %}
-            <a href="{{ site.base }}{{ item.solutions-link }}"
+            {% if item.exam_solutions %}
+            <a href="{{ site.base }}{{ item.exam_solutions }}"
                 style="text-decoration: none">
                 <img class="homework-icon"
                     alt="{{ iteml[0] }} exam solutions"
