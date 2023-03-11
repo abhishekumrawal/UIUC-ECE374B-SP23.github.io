@@ -18,6 +18,7 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_pqsp96a0
 
 A universal turing machine(UTM) is a turing machine that can **simulate** any turing machines. 
 That is, given an **encoding** $\langle M\rangle$ of a turing machine $M$ and an input string $w$ as the input, a UTM $U$ generates the output of running $M$ on the input $w$. 
+
 <img src="/img/lectures/Lec9/lec9_UTM.png" alt="UTM" style="width: 700px;">
 
 <h4>Encoding of a Turing Machine</h4>
@@ -57,7 +58,7 @@ Therefore, we also encode the configuration of the TM as a string and store keep
 Again, there can be multiple ways to encode the configuration of the TM.
 The following figure describes one way of encoding the configuration. 
 
-<img src="/img/lectures/Lec9/lec9_conf.png" alt="configuration" style="width: 700px;">
+<img src="/img/lectures/Lec9/lec9_conf.png" alt="configuration" style="width: 600px;">
 
 In the figure, every 4 bits block represent a single tape cell of the TM. Therefore the whole encoding in the example represents 3 cells of the tape. 
 The first 2 bits of the 4 bits block represents the current cell as well as the current location of the head. 
