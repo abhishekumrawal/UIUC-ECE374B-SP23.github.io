@@ -37,7 +37,7 @@ Therefore, we simply assume that the TM is somehow encoded properly and was prov
 A TM is defined as a 7-tuple $(Q, \Sigma, \Gamma, \delta, q_0, q_{a}, q_{r})$, and an encoding of a TM must contain information about all 7 elements in the tuple.
 However, the encoding does not necessarily have to explicitly describe the 7 elements, since a full description of the transition implicitly provides information of other elements as well.
 Suppose we are given a complete list of all possible transitions. 
-Since the transition function is defined as $\delta:Q \times \Gamma \rightarrow Q \times \Gamma \times \{ L,R,S \} $, a single entry in the list would specify the current state, the tape symbol at the head, the new state after transition, the new tape symbol to be written at the head, and the direction to which the head must move. 
+Since the transition function is defined as $\delta:Q \times \Gamma \rightarrow Q \times \Gamma \times \\{ L,R,S \\} $, a single entry in the list would specify the current state, the tape symbol at the head, the new state after transition, the new tape symbol to be written at the head, and the direction to which the head must move. 
 Therefore, we can extract all states of the TM that can be reached, all symbols that can be observed from the tape, and all symbols that can be written on the tape from the list of transitions. 
 The remaining elements are the initial state $q_0$, the accepting state $q_a$ and the rejecting state $q_r$. 
 We can bypass specifying the three elements by always letting the first, the second and the third states be the initial, the accepting, and the rejecting states respectively. 
