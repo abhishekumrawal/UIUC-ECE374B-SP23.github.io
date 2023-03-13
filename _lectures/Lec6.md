@@ -119,7 +119,7 @@ If L' is a known non-regular language then it implies that L is non-regular. Why
 
 <h4>Additional Resources</h4>
 
-- [Sariel's Lecture 6](/https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+- [Sariel's Lecture 6](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 
