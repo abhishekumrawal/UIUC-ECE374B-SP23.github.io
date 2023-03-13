@@ -41,11 +41,11 @@ The language L = { $a^{n} b^{n} c^{n}$ \| $n \ge 1$} is a context-sensitive lang
 
 - V = {S,A,B}
 - T = {a,b,c}
-- P = {S &rarr; abc | aAbc , Ab &rarr; bA , Ac &rarr; Bbcc , bB &rarr; Bb , aB &rarr; aa | aaA}
+- P = {S &rarr; abc \| aAbc , Ab &rarr; bA , Ac &rarr; Bbcc , bB &rarr; Bb , aB &rarr; aa \| aaA}
 
 <h4>Turing Machines</h4>
  
- <h5>Definiton</h5>
+ <h5>Definition</h5>
 
 A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm
 
@@ -56,7 +56,7 @@ A Turing machine is a mathematical model of computation describing an abstract m
 - Finite state control
 - Every step: Read character under head, write character out, move the head right or left (or stay).
 
-<h5>Formal definiton</h5>
+<h5>Formal definition</h5>
   
 A Turing machine is a 7-tuple(Q, $\Sigma ,\Gamma ,\delta  , q_{0}, q_{acc}, q_{rej}$)
 
@@ -66,8 +66,8 @@ A Turing machine is a 7-tuple(Q, $\Sigma ,\Gamma ,\delta  , q_{0}, q_{acc}, q_{r
 - $\delta$ : Q x $\Gamma &rarr; Q$ x $\Gamma$ x {L, R, S\} : Transition function.
 - $q_{0}$ $\in$ Q is the initial state
 -  $q_{acc} \in$  Q is the accepting/final state
--  $q-{rej} \in$ Q is the rejecting state
--  |\_| or ? : Special blank symbol on the tape
+-  $q_{rej} \in$ Q is the rejecting state
+-  \|\_\| or ? : Special blank symbol on the tape
 
 <h5>Transition Function</h5>
 
@@ -83,13 +83,12 @@ $\delta$ : (q, c) = (p, d, L)
 - c : Character under tape head
 - p : New state
 - d : Character to write under tape head
-- L: Move tape head left
+- L : Move tape head left
 
 <h5>Languages defined by a Turing Machine</h5>
 
-- A language L is recursively enumerable if L is the set of strings accepted by some Turing Machine. L = {L(M) | M some Turing machine}
-
-- A language L is recursive (decidable) if L is the set of strings accepted by some Turing Machine that halts on every input. L = {L(M) | M some Turing machine that halts on all inputs}.
+- A language L is recursively enumerable if L is the set of strings accepted by some Turing Machine. L = {L(M) \| M some Turing machine}
+- A language L is recursive (decidable) if L is the set of strings accepted by some Turing Machine that halts on every input. L = {L(M) \| M some Turing machine that halts on all inputs}.
 
 <h4>Linear Bounded Automata</h4>
 
