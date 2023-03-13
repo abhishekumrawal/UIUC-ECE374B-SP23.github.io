@@ -22,8 +22,8 @@ hw3:
   num-problems: 5
   assigned-date: 2023-02-06
   due-date: 2023-02-13
-  questions-link:  /materials/homeworks/hw3.pdf
-  solutions-link:
+  questions-link: /materials/homeworks/hw3.pdf
+  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw3_sol.pdf
 
 hw4: 
   num: 4
@@ -31,8 +31,8 @@ hw4:
   num-problems: 5
   assigned-date: 2023-02-27
   due-date: 2023-03-06
-  questions-link:
-  solutions-link:
+  questions-link: /materials/homeworks/hw4.pdf
+  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw4_sol.pdf
 
 hw5: 
   num: 5
@@ -40,7 +40,7 @@ hw5:
   num-problems: 5
   assigned-date: 2023-03-06
   due-date: 2023-03-20
-  questions-link:
+  questions-link: /materials/homeworks/hw5.pdf
   solutions-link:
 
 hw6: 
@@ -49,7 +49,7 @@ hw6:
   topic: Simple and Directed-Acyclic Graphs	
   assigned-date: 2023-03-20
   due-date: 2023-03-27
-  questions-link:
+  questions-link: /materials/homeworks/hw6.pdf
   solutions-link:
 
 hw7: 

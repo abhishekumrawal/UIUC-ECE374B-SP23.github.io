@@ -53,10 +53,10 @@ title: Homeworks
 &nbsp;
 
 Couple things to note about homeworks:
-- Each homework is assigned when you have all (or atleast most) of the required knowledge to complete it. In two cases, because of scheduling constraints, one or two problems may require knowledge from the lecture/discussion right after assignment. Either way you'll have the knowledge for those problems by Wednesday. This is a long-winded way of saying: **There is zero reason not to start the homework early**
+- Each homework is assigned when you have all (or at least most) of the required knowledge to complete it. In two cases, because of scheduling constraints, one or two problems may require knowledge from the lecture/discussion right after assignment. Either way you'll have the knowledge for those problems by Wednesday. This is a long-winded way of saying: **There is zero reason not to start the homework early**
 - Each homework will consist of 3 novel problems and 1-2 problems you've seen in the labs. All the problems counts equally toward your final course grade.
 - The homework average consists 24% of your final course grade. We will use the highest 34 scores to calculate your final course grade. Since there are expected to be 43 problems, this means that 9 problems will be dropped (~2 homeworks).
-- It's a bad idea to skip homeowrks. Homeworks and labs are where I get inspiration for exam problems. 
+- It's a bad idea to skip homeworks. Homeworks and labs are where I get inspiration for exam problems. 
 
 ### Homework Logistics: How to submit
 

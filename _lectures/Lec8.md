@@ -10,8 +10,8 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-02-09
 link-slides: /materials/lecture_slides/lec8.pdf
-link-scribbles:
-link-recording:
+link-scribbles: /materials/lecture_slides/lec8_scribbles_sp23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_3ib6g4rr/282723252
 ---
 
 Nothing so far.....
