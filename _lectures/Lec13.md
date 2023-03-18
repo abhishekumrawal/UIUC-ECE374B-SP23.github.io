@@ -37,8 +37,8 @@ Fibo(n-1)+Fibo(n-2) &\text{otherwise}
 \end{cases}
 $$
 
-To find the $n$th Fibonacci number, we need to add the the $n-1$th and the $n-2$th Fibonacci number. 
-Then again, to get the $n-1$ Fibonacci number, we need $n-2$th and $n-3$th, for $n-2$th we need $n-3$th and $n-4$th, and so on. 
+To find the $n$th Fibonacci number, we need to add the the $(n-1)$th and the $(n-2)$th Fibonacci number. 
+Then again, to get the $(n-1)$ Fibonacci number, we need $(n-2)$th and $(n-3)$th, for $(n-2)$th we need $(n-3)$th and $(n-4)$th, and so on. 
 The following figure is the recursion tree for $Fibo(5)$. 
 
 <img src="/img/lectures/Lec13/lec13_fibo.png" alt="Fibonacci" style="width: 700px;">
