@@ -28,6 +28,7 @@ The point of DP is to memoize the overlapping subproblems so that you don't have
 <h4>DP Example</h4>
 
 To get a sense, let's consider a classic example of Fibonacci sequence. The $n$th Fibonacci number is defined as the following. 
+
 $$ Fibo(n)=
 \begin{cases} 
 0 &\text{if }n=0\\
@@ -35,6 +36,7 @@ $$ Fibo(n)=
 Fibo(n-1)+Fibo(n-2) &\text{otherwise} 
 \end{cases}
 $$
+
 To find the $n$th Fibonacci number, we need to add the the $n-1$th and the $n-2$th Fibonacci number. 
 Then again, to get the $n-1$ Fibonacci number, we need $n-2$th and $n-3$th, for $n-2$th we need $n-3$th and $n-4$th, and so on. 
 The following figure is the recursion tree for $Fibo(5)$. 
@@ -58,20 +60,22 @@ We can simply repeat adding two cells and storing the value in the next cell unt
 
 The key to writing a DP solution is finding an appropriate recurrence. 
 Once you have a recurrence, the rest - the memoization data structure, the order of evaluation, time complexity, return value, etc - often can be easily derived.
-As an example, consider the following recurrence. 
+As an example, consider the following recurrence named $SomeRandomRecurrence$, abbreviated as $SRR$.
+ 
 $$
-SomeRandomRecurrence(i, j)= 
+SRR(i, j)= 
 \begin{cases}
 0 &\text{if }i=0 \text{ or } j=0\\
-SomeRandomRecurrence(i-1, j-1)+1 &\text{if } SomeRandomCondition\\
-\max(SomeRandomRecurrence(i-1,j),SomeRandomRecurrence(i,j-1) )&\text{otherwise} 
+SRR(i-1, j-1)+1 &\text{if } SomeRandomCondition\\
+\max(SRR(i-1,j),SRR(i,j-1) )&\text{otherwise} 
 \end{cases}
 $$
-Let's suppose we want to return $SomeRandomRecurrence(n,n)$ at the end. 
+
+Let's suppose we want to return $SRR(n,n)$ at the end. 
 Since we do not have any description of the recurrence, we don't even know what problem we are solving. 
 However, we can still figure out an appropriate memoization data structure and the evaluation order.
-Observe that $SomeRandomRecurrence(i,j)$ only depends on $SomeRandomRecurrence(i-1,j)$, $SomeRandomRecurrence(i,j-1)$, and $SomeRandomRecurrence(i-1,j-1)$. 
-Since $SomeRandomRecurrence(n,n)$ would have no dependency on $SomeRandomRecurrence$ with indices greater than $n$, we are only interested in $SomeRandomRecurrence(i,j)$ where the parameters $i, j$ ranges from $0$ to $n$.
+Observe that $SRR(i,j)$ only depends on $SRR(i-1,j)$, $SRR(i,j-1)$, and $SRR(i-1,j-1)$. 
+Since $SRR(n,n)$ would have no dependency on $SRR$ with indices greater than $n$, we are only interested in $SRR(i,j)$ where the parameters $i, j$ ranges from $0$ to $n$.
 We have $n^2$ different pairs of parameters, or in other words $n^2$ different subproblems, which means a 2D array would be appropriate as the data structure. 
 Also, it is obvious that the evaluation order would be from lower to higher index, since we need to know the values in lower indices to find the values for higher indices.
 
