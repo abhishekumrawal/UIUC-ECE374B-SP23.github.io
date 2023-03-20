@@ -61,6 +61,8 @@ The problem can be generalized to move a tower of size $m$ from peg $x$ to peg $
 
 example: $T(n) = 2T(n/2)+cn$ split into 2 after each node but the running time contributed by each split is $cn/2$. This results in a constant amount of work done at each level. The total running time is the sum of the running times for each level. Because $n$ divides by 2 each time, there are $log(n)$ levels. This results in a total running time of $O(nlog(n))$.
 
+<img src="/img/lectures/Lec10/lec10_fig1.PNG" alt="Example3" style="height: 150px;">
+
 - Expanding the Recurrence: Expanding the recurrence is done by replacing the recurrent function on the right side of the equation the right hand side of the equation for the smaller case.
 
 example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 4T(n/4)+cn+cn$. This replacement can occur $log(n)$ times because $n$ divides by 2 each time. Every time the replacement occurs an extra $cn$ is added. This means the eventual expansion will be $T(n) = cn+...cn = cnlog(n)$ which has a running time of $O(nlog(n))$.
