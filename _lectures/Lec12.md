@@ -118,7 +118,7 @@ Problem:
 
 1. Naive solution:
 <br>
-<img src="/img/lectures/Lec12/algo_naive.png" alt="text" style="width: 600px;" class="center>
+<img src="/img/lectures/Lec12/algo_naive.png" alt="text" style="width: 600px;" class="center">
 <br><br>
 Running time: O(n$2^n$) for $2^n$ subsequences of a sequence of length n and O(n) time to check
 if a given sequence is increasing.
