@@ -85,6 +85,9 @@ If the TM eventually reaches an accepting state, then the UTM would return ACCEP
 If the TM reaches a rejecting state, then the UTM would return REJECT. 
 This way we can update the configuration and return the out of the TM according to the specification of the TM, which shows that we can simulate the behavior of the TM on the UTM. 
 
+&nbsp;
+<h4>Additional Resources</h4>
+- [Jeff's - Notes on Universal Turing Machine](https://jeffe.cs.illinois.edu/teaching/algorithms/models/08-universal.pdf)
 
 
 
