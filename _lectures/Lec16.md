@@ -51,7 +51,25 @@ A topological ordering/topological sorting of G = (V, E) is an ordering $<$ on V
 
 The Pre-visit number indicates when the node enters the DFS recursion stack, and the Post-visit number indicates when the node exits the DFS recursion stack. Pre and Post numbers can be used to determine whether a particular node is in the sub-tree of another node.
 
-<img src="/img/lectures/Lec16/prepost.png" alt="Concatenation" style=" height: 500px;width: 500px;"> 
+```
+DFS(G)
+    Mark all nodes u as unvisited
+    T is set to ∅
+    time = 0
+    while there is an unvisited node u do
+        DFS(u)
+    Output T
+```
+```
+DFS(u)
+    Mark u as visited
+    pre(u) = ++time
+    for each edge (u, v) in Out(u) do
+        if v is not visited
+            add edge (u, v) to T
+            DFS(v)
+    post(u) = ++time
+```
 
 <h5>Properties</h5>
 
@@ -104,9 +122,20 @@ The Linear time Algorithm for SCCs will be as follows:
 - Do DFS(u) to compute SCC(u)
 - Remove SCC(u) and repeat
 
-If v is the vertex with maximum post numbering in $DFS(G^{rev})$. Then v is in a SCC S, such that S is a sink of $G^{SCC}$. So, we can find a vertex in a sink SCC of $G^{SCC}$ for the linear time algorithm.
+If v is the vertex with maximum post numbering in $DFS(G^{rev})$. Then v is in a SCC S, such that S is a sink of $G^{SCC}$. So, we can find a vertex in a sink SCC of $G^{SCC}$ for the linear time algorithm. Let us assume $G1=G^{rev}$.
 
-<img src="/img/lectures/Lec16/linear.png" alt="Concatenation" style=" height: 200px;width: 500px;"> 
+```
+do DFS(G1) and output vertices in decreasing post order.
+Mark all nodes as unvisited
+for each u in the computed order do
+    if u is not visited then
+        DFS(u)
+        Let S1 be the nodes reached by u
+        Output S1 as a strong connected component
+        Remove S1 from G
+```
+
+
 
 The above algorithm  runs in time $O(m + n)$ and correctly outputs all the SCCs of G.
 
