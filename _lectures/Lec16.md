@@ -4,7 +4,7 @@ placeholder: false
 back-color: fffffa
 card-link: LecLink16
 # subtitle: And a subtitle
-description: We'll begin our graphing algorithms discussion with directed-acyclic graphs whihc hold quite a few properties we can exploit. 
+description: We'll begin our graphing algorithms discussion with directed-acyclic graphs which hold quite a few properties we can exploit. 
 people:
 layout: lecture
 # no-link: true  # stops link to page 
