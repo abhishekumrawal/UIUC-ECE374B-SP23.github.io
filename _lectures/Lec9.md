@@ -87,7 +87,7 @@ This way we can update the configuration and return the out of the TM according 
 
 &nbsp;
 <h4>Additional Resources</h4>
-- [Jeff's - Notes on Universal Turing Machine](https://jeffe.cs.illinois.edu/teaching/algorithms/models/08-universal.pdf)
+- [Jeff's notes on Universal Turing Machine](https://jeffe.cs.illinois.edu/teaching/algorithms/models/08-universal.pdf)
 
 
 

@@ -83,7 +83,7 @@ Also, it is obvious that the evaluation order would be from lower to higher inde
 
 &nbsp;
 <h4>Additional Resources</h4>
-- [Jeff's - Notes on dynamic programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+- [Jeff's notes on dynamic programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
 - [Sariel's Lecture 13](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
