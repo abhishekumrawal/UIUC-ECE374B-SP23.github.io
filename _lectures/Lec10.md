@@ -69,7 +69,9 @@ example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 
 
 <h4>Additional Resources</h4>
 
+- [Jeff's - Notes on Recursion](https://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf)
 
+- [Sariel's Lecture 10](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 
