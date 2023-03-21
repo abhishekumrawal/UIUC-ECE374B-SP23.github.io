@@ -138,7 +138,22 @@ Example:
 <h5> Basic Graph Search in Undirected Graphs:  </h5>
 
 Given G = (V,E) and vertex u $\in$ V. Let n = |V|. Then:<br>
-<img src="/img/lectures/Lec15/algo1.png" alt="text" style="width: 400px;">
+
+```latex
+Explore(G,u):
+  Visited[1 . . n] = FALSE
+  //ToExplore, S: Lists
+  Add u to ToExplore and to S
+  Visited[u] = TRUE
+  while (ToExplore is non-empty) do
+    Remove node x from ToExplore
+    for each edge xy in Adj(x) do
+      if (Visited[y] = FALSE)
+        Visited[y] = TRUE
+        Add y to ToExplore
+        Add y to S
+  Output S
+```
 <br>
 Running time : O(n+m)
 
@@ -148,7 +163,23 @@ Running time : O(n+m)
 
 - Search tree: One can create a natural search tree T rooted at u during search.
 <br>
-<img src="/img/lectures/Lec15/algo2.png" alt="text" style="width: 500px;">
+```latex
+Explore(G,u):
+  array Visited[1..n]
+  Initialize: Visited[i] = FALSE for i = 1,..., n
+  List: ToExplore, S
+  Add u to ToExplore and to S, Visited[u] = TRUE
+  Make tree T with root as u
+  while (ToExplore is non-empty) do
+    Remove node x from ToExplore
+    for each edge (x, y) in Adj(x) do
+      if (Visited[y] = FALSE)
+        Visited[y] = TRUE
+        Add y to ToExplore
+        Add y to S
+        Add y to T with x as its parent
+  Output S
+```
 <br>
 
 <h4> II. Directed graphs </h4>
@@ -219,8 +250,23 @@ Example of Asymmetricity: D can reach B but B cannot reach D.
 <br>
 <h5> Basic Graph Search in Directed Graphs  </h5>
 Given G = (V,E) and vertex u $\in$ V. Let n = |V|. Then:<br>
-<br>
-<img src="/img/lectures/Lec15/algo3.png" alt="text" style="width: 500px;">
+```latex
+Explore(G,u):
+  array Visited[1..n]
+  Initialize: Set Visited[i] = FALSE for 1 <= i <= n
+  List: ToExplore, S
+  Add u to ToExplore and to S, Visited[u] = TRUE
+  Make tree T with root as u
+  while (ToExplore is non-empty) do
+    Remove node x from ToExplore
+    for each edge (x, y) in Adj(x) do
+      if (Visited[y] = FALSE)
+        Visited[y] = TRUE
+        Add y to ToExplore
+        Add y to S
+        Add y to T with edge (x, y)
+  Output S
+```
 <br><br>
 
 Example - rch(B) : 
@@ -247,8 +293,10 @@ Example - rch(B) :
     - Since each node v ∈ S was in ToExplore and was explored, no edges in G leave S. Hence no node in V − S is in rch(u).
     - Caveat: In directed graphs edges can enter S.
     - Thus S = rch(u) at termination
+    
 <h4>Additional Resources</h4>
-
+- [Jeff's Textbook - Basic Graph Algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/book/05-graphs.pdf)
+- [Sariel's Lecture 15](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 
