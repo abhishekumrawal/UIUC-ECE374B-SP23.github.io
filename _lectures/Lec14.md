@@ -101,7 +101,7 @@ Running time is $O(mn)$. Space used is $O(mn)$.
 
 <h4>Additional Resources</h4>
 
-- [Jeff's - Notes on Finite State Automata](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+- [Jeff's - Notes on Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
 
 - [Sariel's Lecture 14](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
