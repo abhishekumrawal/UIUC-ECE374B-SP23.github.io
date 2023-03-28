@@ -99,6 +99,12 @@ Running time is $O(mn)$. Space used is $O(mn)$.
 6. This problem can be formulated as the problem in example 1. Set the Mismatch Cost for two different letters is set to $+\infty$ and set to $1$ for two identical letters. Set the Gap Cost to $1$. The result is that the alignment will never mismatch two different letters so the longest common subsequence is the minimum alignment cost minus the number of gaps. 
 
 
+<h4> Even more DP problems! </h4>
+
+Our very own Hamza Husain has dedicated himself to givign you even more DP problems for practice: 
+- [Extra DP Lab Questions](/materials/extra_content/lab12-new.pdf)
+- [Extra DP Lab Solutions](/materials/extra_content/lab12-sol-new.pdf)
+
 <h4>Additional Resources</h4>
 
 - [Jeff's - Notes on Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
