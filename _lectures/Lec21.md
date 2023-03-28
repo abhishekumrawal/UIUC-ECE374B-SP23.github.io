@@ -16,6 +16,14 @@ link-recording:
 
 Nothing so far.....
 
+
+<h4> Reductions example </h4>
+
+Your very own, Mr. Kevin Lim, did an animation of a classic 374 reduction:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aWWXXwp1Ya8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 <h4>Additional Resources</h4>
 
 
