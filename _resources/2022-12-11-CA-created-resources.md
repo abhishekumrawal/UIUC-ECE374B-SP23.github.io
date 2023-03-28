@@ -98,3 +98,10 @@ Last semester (and part of this one) I conscripted quite a few CAs to develop pr
     - Concept Tested: reductions
 
 Watch out for these problems coming to a course near you soon (once that course is launched I will make sure you guys get your due there as well).
+
+### Infrastructure support
+
+I'd like to also mention the following CAs how have helped develop the backend systems of the course: 
+
+- New course infrastructure - Erin Kim
+- New course website - Rubin Zou
