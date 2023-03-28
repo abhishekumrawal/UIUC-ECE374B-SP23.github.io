@@ -13,10 +13,10 @@ MT2:
   num: 2
   topic: Algorithms 
   date: 2023-04-04
-  samp_exam: 
+  samp_exam: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/sample_midterm2.pdf
   skillset: materials/exams/mt_2_skillset.pdf
   cheat_sheet: materials/exams/main_MT2.pdf
-  fodder: 
+  fodder: materials/exams/mt_2_fodder.pdf
   exam_questions:
   exam_solutions: 
 
@@ -27,7 +27,7 @@ MT3:
   samp_exam: 
   skillset: materials/exams/mt_3_skillset.pdf
   cheat_sheet: materials/exams/main_MT3.pdf
-  fodder: 
+  fodder: materials/exams/mt_3_fodder.pdf
   exam_questions:
   exam_solutions: 
 
