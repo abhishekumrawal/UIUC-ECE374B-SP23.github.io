@@ -61,7 +61,7 @@ hw7:
   questions-link: /materials/homeworks/hw7.pdf
   solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw7_sol.pdf
 
-hw8: g
+hw8: 
   num: 8
   topic: Reductions, NP-Completeness	
   num-problems: 4
