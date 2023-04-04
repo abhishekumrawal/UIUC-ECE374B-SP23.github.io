@@ -9,7 +9,7 @@ people:
 layout: post
 no-link: true  # stops link to page 
 deliverydate: 2023-04-19
-link-questions:
+link-questions: 
 link-solutions:
 ---
 

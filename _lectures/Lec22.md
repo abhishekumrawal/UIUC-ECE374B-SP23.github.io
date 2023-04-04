@@ -4,12 +4,12 @@ placeholder: false
 back-color: fffaff
 card-link: LecLink22
 # subtitle: And a subtitle
-description:
+description: We'll discuss more NP-complete problems/reductions and specifically focus on reductions requiring gadgets. 
 people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-04-13
-link-slides:
+link-slides: /materials/lecture_slides/lec22.pdf
 link-scribbles:
 link-recording:
 ---

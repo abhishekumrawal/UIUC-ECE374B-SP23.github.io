@@ -4,12 +4,12 @@ placeholder: false
 back-color: fffaff
 card-link: LecLink21
 # subtitle: And a subtitle
-description:
+description: We now delve into the hard (NP-hard) problems and investigate how to prove if a specific problem is NP, NP-hard, etc.
 people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-04-11
-link-slides:
+link-slides: /materials/lecture_slides/lec21.pdf
 link-scribbles:
 link-recording:
 ---
