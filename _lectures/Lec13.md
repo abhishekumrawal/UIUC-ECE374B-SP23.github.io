@@ -81,6 +81,14 @@ Also, it is obvious that the evaluation order would be from lower to higher inde
 
 <img src="/img/lectures/Lec13/lec13_2ddp.png" alt="SomeRandomRecurrence" style="width: 500px;">
 
+<h4>Longest increasing Subsequence</h4>
+
+Our very own Jeep Kaewla ahs created the following video explainer of teh LIS problem: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/buB-VifgeNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 &nbsp;
 <h4>Additional Resources</h4>
 - [Jeff's notes on dynamic programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)

@@ -38,8 +38,8 @@ Animations are a great way to help explain concepts. A few CAs have used the [Ma
   - Code: [https://github.com/kevtool/ECE374_Video](https://github.com/kevtool/ECE374_Video)
   - Author: Kevin Lim
 
-- [LIS explainer]() **(TBA)**: 
-  - Video: []()
+- [LIS explainer](/lectures/Lec13.html): 
+  - Video: [https://www.youtube.com/watch?v=buB-VifgeNE](https://www.youtube.com/watch?v=buB-VifgeNE)
   - Code: []()
   - Author: Jeep Kaewla
 
