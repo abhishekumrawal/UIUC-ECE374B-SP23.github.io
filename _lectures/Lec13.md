@@ -83,7 +83,7 @@ Also, it is obvious that the evaluation order would be from lower to higher inde
 
 <h4>Longest increasing Subsequence</h4>
 
-Our very own Jeep Kaewla ahs created the following video explainer of teh LIS problem: 
+Our very own Jeep Kaewla has created the following video explainer of the LIS problem: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/buB-VifgeNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
