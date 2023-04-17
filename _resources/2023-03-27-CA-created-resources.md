@@ -28,7 +28,7 @@ Creating new content is *difficult* and usually a task for me and the TAs. Howev
 
 Animations are a great way to help explain concepts. A few CAs have used the [Manim](https://github.com/3b1b/manim) library to create some animations for some of the more difficult course topics: 
 
-- [Language Transformation example](/lectures/Lec4.html): 
+- [Language Transformation example](/lectures/Lec4.html):   
   - Video: [https://www.youtube.com/watch?v=PuZFHpmOotQ](https://www.youtube.com/watch?v=PuZFHpmOotQ)
   - Code: [https://github.com/kevtool/ECE374_Video](https://github.com/kevtool/ECE374_Video)
   - Author: Kevin Lim
