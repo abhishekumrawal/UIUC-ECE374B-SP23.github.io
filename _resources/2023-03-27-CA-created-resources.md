@@ -40,7 +40,7 @@ Animations are a great way to help explain concepts. A few CAs have used the [Ma
 
 - [LIS explainer](/lectures/Lec13.html): 
   - Video: [https://www.youtube.com/watch?v=buB-VifgeNE](https://www.youtube.com/watch?v=buB-VifgeNE)
-  - Code: []()
+  - Code: [https://github.com/jeeepx/AlgoAnimation](https://github.com/jeeepx/AlgoAnimation)
   - Author: Jeep Kaewla
 
 - [Topological Sort]() **(TBA)**: 
