@@ -74,7 +74,7 @@ So far, we saw how the specification and the configuration of a TM could be enco
 However, we will not go over all the details in this post. Instead, we would briefly discuss how a TM can be simulated at a high level.
 
 As described earlier, the UTM would be given an encoded specification(which is essentially the list of transitions) of a TM and the input string for the TM. 
-Based on the input, we first initialize the configuration on the tape. This would contain information of the input string as well as the current state and the header location. 
+Based on the input, we first initialize the configuration on the tape. This would contain information of the input string as well as the current state and the head location. 
 Then, to simulate a single step of the TM, we
 
 1. Scan the current configuration to figure out the current state and the tape symbol.
