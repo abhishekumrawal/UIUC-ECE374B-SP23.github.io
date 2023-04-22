@@ -53,7 +53,7 @@ Below is a trivial example of the encoding scheme.
 <h4>Encoding of a configuration</h4>
 
 To simulate a TM, we need to keep track of the configuration of the TM. 
-In other words, we need to memorize the current state, the tape content, and the header location of the TM during the simulation, in addition to the transition rules.
+In other words, we need to memorize the current state, the tape content, and the head location of the TM during the simulation, in addition to the transition rules.
 Therefore, we also encode the configuration of the TM as a string and store keep it in the tape of the UTM to simulate the TM. 
 Again, there can be multiple ways to encode the configuration of the TM.
 The following figure describes one way of encoding the configuration. 
