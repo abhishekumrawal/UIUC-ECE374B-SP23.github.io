@@ -47,7 +47,18 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_vbxpmhcw
 
 3. -5. This means the recursive backtracking algorithm can be implemented by filling out an array size $m+1$x$n+1$ by initializing the base cases and computing new array elements by the minimum between previously computed elements. 
 
-<img src="/img/lectures/Lec14/lec14_ex1_alg.PNG" alt="Example3" style="height: 200px;">
+```
+EDIST(A[1..m],B[1..n])
+  int M[0..m][0..n]
+  for i ← 1 to m
+     M[i][0] ← i*δ
+  for j ← 1 to n
+     M[0][j] ← j*δ
+  for i ← 1 to m
+     for j ← 1 to n
+        M[i][j] ← min{COST[A[i]][B[j]]+M[i-1][j-1],δ+M[i-1][j],δ+M[i][j-1]}
+  return M[m][n]
+```
 
 Running time is $O(mn)$. Space used is $O(mn)$.
 
@@ -67,14 +78,38 @@ Running time is $O(mn)$. Space used is $O(mn)$.
 
 3. -5. This means the recursive backtracking algorithm can be implemented by filling out an array size $m+1$x$n+1$ by initializing the base cases and computing new array elements by the minimum between previously computed elements. 
 
-<img src="/img/lectures/Lec14/lec14_ex2_alg.PNG" alt="Example3" style="height: 250px;">
+```
+LCS(A[1..m],B[1..n])
+  int M[0..m][0..n]
+  for i ← 1 to m
+     M[i][0] ← 0
+  for j ← 1 to n
+     M[0][j] ← 0
+  for i ← 1 to m
+     for j ← 1 to n
+        K ← max{M[i-1][j],M[i][j-1]}
+        M[i][j] ← K
+        if A[i]=B[j]
+           M[i][j] ← max{K,1+M[i-1][j-1]}
+  return M[m][n]
+```
 
 Running time is $O(mn)$. Space used is $O(mn)$.
 
 6. This problem can be formulated as the problem in example 1. Set the Mismatch Cost for two different letters is set to $+\infty$ and set to $1$ for two identical letters. Set the Gap Cost to $1$. The result is that the alignment will never mismatch two different letters so the longest common subsequence is the minimum alignment cost minus the number of gaps. 
 
 
+<h4> Even more DP problems! </h4>
+
+Our very own Hamza Husain has dedicated himself to givign you even more DP problems for practice: 
+- [Extra DP Lab Questions](/materials/extra_content/lab12-new.pdf)
+- [Extra DP Lab Solutions](/materials/extra_content/lab12-sol-new.pdf)
+
 <h4>Additional Resources</h4>
+
+- [Jeff's - Notes on Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+
+- [Sariel's Lecture 14](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 

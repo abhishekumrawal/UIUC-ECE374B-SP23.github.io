@@ -53,8 +53,8 @@ Below is a trivial example of the encoding scheme.
 <h4>Encoding of a configuration</h4>
 
 To simulate a TM, we need to keep track of the configuration of the TM. 
-In other words, we need to memorize the current state, the tape content, and the header location of the TM during the simulation, in addition to the transition rules.
-Therefore, we also encode the configuration of the TM as a string and store keep it in the tape of the UTM to simulate the TM. 
+In other words, we need to memorize the current state, the tape content, and the head location of the TM during the simulation, in addition to the transition rules.
+Therefore, we also encode the configuration of the TM as a string and keep it in the tape of the UTM to simulate the TM. 
 Again, there can be multiple ways to encode the configuration of the TM.
 The following figure describes one way of encoding the configuration. 
 
@@ -74,7 +74,7 @@ So far, we saw how the specification and the configuration of a TM could be enco
 However, we will not go over all the details in this post. Instead, we would briefly discuss how a TM can be simulated at a high level.
 
 As described earlier, the UTM would be given an encoded specification(which is essentially the list of transitions) of a TM and the input string for the TM. 
-Based on the input, we first initialize the configuration on the tape. This would contain information of the input string as well as the current state and the header location. 
+Based on the input, we first initialize the configuration on the tape. This would contain information of the input string as well as the current state and the head location. 
 Then, to simulate a single step of the TM, we
 
 1. Scan the current configuration to figure out the current state and the tape symbol.

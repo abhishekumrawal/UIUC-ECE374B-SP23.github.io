@@ -118,8 +118,14 @@ Problem:
 
 1. Naive solution:
 <br>
-<img src="/img/lectures/Lec12/algo_naive.png" alt="text" style="width: 600px;" class="center">
-<br><br>
+```latex
+algLISNaive(A[1..n]):
+  max = 0
+  for each subsequence B of A do
+      if B is increasing and |B| > max then
+        max = |B|
+  Output max
+```
 Running time: O(n$2^n$) for $2^n$ subsequences of a sequence of length n and O(n) time to check
 if a given sequence is increasing.
 
@@ -128,9 +134,17 @@ if a given sequence is increasing.
 - Case 2: Contains A[n] in which case LIS(A[1..n]) is not so clear.
 - Note: For second case we want to find a subsequence in A[1..(n − 1)] that is restricted to numbers less than A[n]. This suggests that a more general problem is LIS_smaller(A[1..n], x) which gives the longest increasing subsequence in A where each number in the sequence is less than x.
 
-<br> 
-<img src="/img/lectures/Lec12/algo_rec.png" alt="text" style="width: 600px;" class="center"> 
-<br>
+```latex
+LIS_smaller(A[1..n], x):
+  if (n = 0) then return 0
+  m = LIS_smaller(A[1..(n − 1)], x)
+  if (A[n] < x) then
+    m = max(m, 1 + LIS_smaller(A[1..(n − 1)], A[n]))
+  Output m
+
+LIS(A[1..n]):
+  return LIS_smaller(A[1..n], ∞)
+```
 Running time: O($2^n$)
 
 <h4> General pattern </h4>
@@ -146,7 +160,8 @@ have an increasing order of value. For each input element, the algorithm decides
 to include it in the output sequence or not.
 
 <h4>Additional Resources</h4>
-
+- [Jeff's Textbook - Backtracking](https://jeffe.cs.illinois.edu/teaching/algorithms/book/02-backtracking.pdf)
+- [Sariel's Lecture 12](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 
