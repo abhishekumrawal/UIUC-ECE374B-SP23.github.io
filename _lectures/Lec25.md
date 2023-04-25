@@ -4,12 +4,12 @@ placeholder: false
 back-color: fffaff
 card-link: LecLink25
 # subtitle: And a subtitle
-description:
+description: Let's take a breather before the third midterm and simply go over some lingering questions and/or some practice problems. We'll also begin with a brief overview of classic decidability problems. 
 people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-04-25
-link-slides:
+link-slides: /materials/lecture_slides/lec25.pdf
 link-scribbles:
 link-recording:
 ---
