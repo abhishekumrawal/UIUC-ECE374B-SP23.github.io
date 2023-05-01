@@ -20,7 +20,7 @@ As covered in the last lecture, **Dijkstra's algorithm** finds the shortest dist
 However, when the graph contains edges with negative weights, Dijkstra's algorithm might fail to find the shortest distance. 
 Consider the following example. 
 
-<img src="/img/lectures/Lec18/lec18_dijkneg.png" alt="dijkneg" style="height=100px;">
+<img src="/img/lectures/Lec18/lec18_dijkneg.png" alt="dijkneg" style="width:700px;">
 
 Suppose we start from the vertex $s$. 
 Since the vertices $a$ and $b$ are both reachable from $s$, the distance to the two vertices would be updated to $3$ and $4$ respectively.
@@ -42,7 +42,7 @@ At a high level, the algorithm runs as follows:
 Where $d[x]$ denotes the distance from the source vertex to the vertex $x$, and $l(u,v)$ denotes the length of the edge $(u,v)$. 
 Since the algorithm loops for $|V|-1$ times, and each iteration involves checking every edge once, the runtime of the algorithm is $O(|V||E|)$. 
 
-<img src="/img/lectures/Lec18/lec18_bf.png" alt="bf" style="height=100px;">
+<img src="/img/lectures/Lec18/lec18_bf.png" alt="bf" style="width:700px;">
 
 <h4>Properties of Bellman-Ford Algorithm</h4>
 
@@ -84,7 +84,7 @@ Once we have a topological sort of the graph, we know in which order the edges m
 Therefore, the DAG shortest distance algorithm only checks each edge once, which gives the overall time complexity of $O(|V|+|E|)$. 
 Note that the algorithm can be applied on graphs with negative edges as long as the graph is acyclic.
 
-<img src="/img/lectures/Lec18/lec18_dag.png" alt="dag" style="height=100px;">
+<img src="/img/lectures/Lec18/lec18_dag.png" alt="dag" style="width:700px;">
 
 The operation of the algorithm illustrated in the figure seems similar to that of Bellman-Ford algorithm. 
 However, Bellman-Ford algorithm had to iterate over all edges to find distances to update, whereas the DAG algorithm immediately knows which edges to check. 
