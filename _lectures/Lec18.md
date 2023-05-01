@@ -77,7 +77,7 @@ If the graph does not contain a cycle, then we can find the shortest distance fr
 1. Topologically sort the graph
 2. Initialize the distance to the source vertex as $0$, and the distance to all other vertices as $\infty$
 3. For vertex $u\in V$ in topological order:
-	Check every edge $(u,v)$ and update distance if $d[v]<d[u]+l(u,v)$
+	Check every edge $(u,v)$ and update distance if $d[v]>d[u]+l(u,v)$
 	
 Once we have a topological sort of the graph, we know in which order the edges must be explored
  to get the shortest distance.
