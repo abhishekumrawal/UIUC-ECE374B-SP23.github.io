@@ -91,7 +91,7 @@ However, Bellman-Ford algorithm had to iterate over all edges to find distances 
 
 <h4>Floyd-Warshall Algorithm</h4>
 
-Floyd-Warshall algorithm is another shortest distance algorithm for graphs with negative edges.
+**Floyd-Warshall algorithm** is another shortest distance algorithm for graphs with negative edges.
 However, instead of finding the distances from a single source, Floyd-Warshall algorithm finds the shortest distances between any pair of vertices. 
 Floyd-Warshall algorithm recursively fills out a 3D array which would eventually hold the shortest distances.
 Suppose we labeled all vertices arbitrarily with integers $1,2,...,|V|$. 
