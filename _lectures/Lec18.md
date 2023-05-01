@@ -15,11 +15,12 @@ link-recording:
 ---
 
 <h4>Dijkstra's Algorithm on Negative-weighted Graphs</h4>
+
 As covered in the last lecture, **Dijkstra's algorithm** finds the shortest distance from a single source vertex to all other vertices. 
 However, when the graph contains edges with negative weights, Dijkstra's algorithm might fail to find the shortest distance. 
 Consider the following example. 
 
-<img src="/img/lectures/Lec18/lec18_dijkneg.png" alt="dijkneg" style="height= 200px;">
+<img src="/img/lectures/Lec18/lec18_dijkneg.png" alt="dijkneg" style="height=100px;">
 
 Suppose we start from the vertex $s$. 
 Since the vertices $a$ and $b$ are both reachable from $s$, the distance to the two vertices would be updated to $3$ and $4$ respectively.
@@ -29,6 +30,7 @@ Note that the actual shortest distance from $s$ to $a$ is $2$, which can be obta
 However, Dijkstra's algorithm visits $a$ before it visits $b$ and mark $a$ as visited, which would result in incorrect shortest distance. 
 
 <h4>Bellman-Ford Algorithm</h4>
+
 **Bellman-Ford algorithm** is an algorithm that finds the shortest path from a source vertex to all other vertices, like Dijkstra's algorithm.
 The algorithm is slower compared to Dijkstra's algorithm, but it can handle graphs with negative-weighted edges. 
 At a high level, the algorithm runs as follows:
@@ -40,9 +42,10 @@ At a high level, the algorithm runs as follows:
 Where $d[x]$ denotes the distance from the source vertex to the vertex $x$, and $l(u,v)$ denotes the length of the edge $(u,v)$. 
 Since the algorithm loops for $|V|-1$ times, and each iteration involves checking every edge once, the runtime of the algorithm is $O(|V||E|)$. 
 
-<img src="/img/lectures/Lec18/lec18_bf.png" alt="bf" style="height= 200px;">
+<img src="/img/lectures/Lec18/lec18_bf.png" alt="bf" style="height=100px;">
 
-<h4>Properties of Bellman-Ford Algorithm</h>
+<h4>Properties of Bellman-Ford Algorithm</h4>
+
 As mentioned in the previous section, Bellman-Ford algorithm can handle graphs with negative edges. 
 This is because the algorithm scans over all edges on each iteration with excluding already visited vertices.
 Due to this behavior, Bellman-Ford Algorithm has a property that after $i$th iteration, the algorithm is guaranteed to discover the shortest distance to every other vertex that can be achieved by using at most $i$ edges. 
@@ -68,6 +71,7 @@ However, if the graph contains a negative cycle, then it would be possible to ob
 Therefore, by running $|V|$th iteration of Bellman-Ford algorithm and checking if the distance table is updated, we can check if the graph contains a negative cycle. 
 
 <h4>Single Source Shortest Distance on DAGs</h4>
+
 If the graph does not contain a cycle, then we can find the shortest distance from a single source to all other vertices in linear time. 
 
 1. Topologically sort the graph
@@ -75,16 +79,18 @@ If the graph does not contain a cycle, then we can find the shortest distance fr
 3. For vertex $u\in V$ in topological order:
 	Check every edge $(u,v)$ and update distance if $d[v]<d[u]+l(u,v)$
 	
-Once we have a topological sort of the graph, we know in which order the edges must be explored to get the shortest distance.
+Once we have a topological sort of the graph, we know in which order the edges must be explored
+ to get the shortest distance.
 Therefore, the DAG shortest distance algorithm only checks each edge once, which gives the overall time complexity of $O(|V|+|E|)$. 
 Note that the algorithm can be applied on graphs with negative edges as long as the graph is acyclic.
 
-<img src="/img/lectures/Lec18/lec18_dag.png" alt="dag" style="height= 200px;">
+<img src="/img/lectures/Lec18/lec18_dag.png" alt="dag" style="height=100px;">
 
 The operation of the algorithm illustrated in the figure seems similar to that of Bellman-Ford algorithm. 
 However, Bellman-Ford algorithm had to iterate over all edges to find distances to update, whereas the DAG algorithm immediately knows which edges to check. 
 
 <h4>Floyd-Warshall Algorithm</h4>
+
 Floyd-Warshall algorithm is another shortest distance algorithm for graphs with negative edges.
 However, instead of finding the distances from a single source, Floyd-Warshall algorithm finds the shortest distances between any pair of vertices. 
 Floyd-Warshall algorithm recursively fills out a 3D array which would eventually hold the shortest distances.
