@@ -6,6 +6,7 @@ card-link: LecLink15
 # subtitle: And a subtitle
 description: First lecture in our discussion of graphing algorithms. We'll discuss basic search and introduce the concept of connected components. 
 people:
+  - sandhya
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-03-09
