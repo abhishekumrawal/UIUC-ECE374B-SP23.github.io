@@ -122,7 +122,7 @@ sandhya:
 kevin:
     display_name: "Kevin Lim"
     netid: wzlim2
-    webpage: ""
+    webpage: "https://www.linkedin.com/in/kevin-lim-b01021203/"
     github: kevtool
     role: ugrad
     image: /img/people/kevin.png
@@ -150,7 +150,7 @@ ayu:
     display_name: "Ayu Seiya"
     netid: aseiya2
     webpage: "https://www.linkedin.com/in/ayu-seiya-88509722b"
-    github: 
+    github: ayuseiya02
     role: ugrad
     image: /img/people/ayu.jpg
     bio: Undergraduate Course Assistant        
@@ -192,7 +192,7 @@ jeep:
     display_name: "Jeep Kaewla"
     netid: ckaewla2
     webpage: "https://www.linkedin.com/in/chayanid-kaewla/"
-    github: 
+    github: jeeepx
     role: ugrad
     image: /img/people/jeep.jpg
     bio: Undergraduate Course Assistant    
@@ -201,7 +201,7 @@ mikem:
     display_name: "Mike Montano"
     netid: montano3
     webpage: "https://www.linkedin.com/in/mike-montano-680aa6230/"
-    github: 
+    github: EdgesFTW
     role: ugrad
     image: /img/people/mike.jpg
     bio: Undergraduate Course Assistant
