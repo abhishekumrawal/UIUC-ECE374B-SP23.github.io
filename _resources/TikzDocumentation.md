@@ -1,3 +1,14 @@
+---
+layout: resource
+title: "TikZ Quickstart"
+
+description: TikZ is a LaTeX drawing tool that is especially useful for drawing simple diagrams such as automata. This is a quick guide on creating your first automata diagram.  
+
+icon: star-o
+people:
+  - gautham
+---
+
 # TikZ Package
 TikZ is a powerful package for creating graphics and diagrams in LaTeX documents. With TikZ, you can create a wide variety of diagrams, such as flowcharts, mind maps, timelines, Venn diagrams, and much more. TikZ provides a lot of flexibility in terms of customization, so you can create graphics that match the style and formatting of your document. We can start by using the tikz package.
 
