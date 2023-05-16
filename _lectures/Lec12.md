@@ -27,7 +27,7 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_benw2x7d
 
 Recursion is a special case of reduction.
 - A special case of reduction 
-- Rduce problem to a smaller instance of itself
+- Reduce problem to a smaller instance of itself
 - Self-reduction
 - Problem instance of size n is reduced to one or more instances of size n 1 or less. 
 - For termination, problem instances of small size are solved by some other method as base cases. 
