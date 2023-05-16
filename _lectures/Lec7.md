@@ -6,6 +6,7 @@ card-link: LecLink7
 # subtitle: And a subtitle
 description: "Now that we know of many non-regular languages, it is time to investigate the next computability class - context-free languages." 
 people:
+  - gautham
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-02-07

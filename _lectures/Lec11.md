@@ -6,6 +6,7 @@ card-link: LecLink11
 # subtitle: And a subtitle
 description: "The next step up from recursion are divide and conquer algorithms. Large objective is to understand linear time selection!"
 people:
+  - gautham
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-02-23

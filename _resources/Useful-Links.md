@@ -20,4 +20,4 @@ I know most of you use the rich text editor from overleaf (if you use LaTeX at a
 I use TikZ for drawing a lot of the simple diagrams in lectures and labs. It has a large learning curve but it's so nice to have  
 
 * [Automatic generation of FSM diagram](https://madebyevan.com/fsm/)
-
+* [TA created simple TikZ automata](/resources/TikzDocumentation)

@@ -1,6 +1,6 @@
 ---
 layout: resource
-title: "A list of CA created resources from this and past semesters"
+title: "CA created resources from this and past semesters"
 
 description: Want to keep a list of all the amazing work(s) my CAs have have. Some are published here. Some are in reserves  
 
@@ -21,9 +21,15 @@ Creating new content is *difficult* and usually a task for me and the TAs. Howev
   - Manuscript: [Questions](/materials/extra_content/lab12-new.pdf) [Solutions](/materials/extra_content/lab12-sol-new.pdf)
   - Author: Hamza Husain
 
-- NFA-to-DFA subset construction **(TBA)**:
+- [NFA-to-DFA subset construction](/resources/SubsetConstruction):
   - Author: Mike Montano
- 
+
+- [Manim introduction](/resources/ManimGuide):
+  - Author: Jeep Kaewla
+
+- [Manim tutorial - Djikstra](/resources/ManimGuide2):
+  - Author: Kevin Lim
+
 ### Animations 
 
 Animations are a great way to help explain concepts. A few CAs have used the [Manim](https://github.com/3b1b/manim) library to create some animations for some of the more difficult course topics: 
@@ -42,12 +48,6 @@ Animations are a great way to help explain concepts. A few CAs have used the [Ma
   - Video: [https://www.youtube.com/watch?v=buB-VifgeNE](https://www.youtube.com/watch?v=buB-VifgeNE)
   - Code: [https://github.com/jeeepx/AlgoAnimation](https://github.com/jeeepx/AlgoAnimation)
   - Author: Jeep Kaewla
-
-- [Topological Sort]() **(TBA)**: 
-  - Video: []()
-  - Code: []()
-  - Author: Sarthak Kamboj
-
 
 ### Problem development
 

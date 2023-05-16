@@ -6,6 +6,7 @@ card-link: LecLink16
 # subtitle: And a subtitle
 description: We'll begin our graphing algorithms discussion with directed-acyclic graphs which hold quite a few properties we can exploit. 
 people:
+  - sindhu
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-03-21

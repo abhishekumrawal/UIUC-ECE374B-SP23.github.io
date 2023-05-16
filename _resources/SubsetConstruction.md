@@ -1,6 +1,6 @@
 ---
 layout: resource
-title: "Subset Construction"
+title: "Subset Construction tool"
 
 description: Mike Montano developed a powerful tool to convert any NFA into its equivalent DFA using the subset-sum construction method! 
 

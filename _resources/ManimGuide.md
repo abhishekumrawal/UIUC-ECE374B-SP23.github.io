@@ -1,13 +1,12 @@
 ---
 layout: resource
-title: "Manim creation Guide"
+title: "Manim - simple animation introduction "
 
 description: Manim is a powerful animation tool that is used extensibly by STEM youtubers to animate mathematical concepts. It's integration with python allows you to calculate and display examples within the same script. This is a quickstart guide on how to create Manim animations. 
 
 icon: star-o
 people:
   - jeep
-  - kevin
 ---
 
 ## Introduction
@@ -81,4 +80,4 @@ Interestingly, I found most answers to my problem in [r/manim](https://www.reddi
 Manim is a powerful Python library that can help you create stunning animations to visualize complex concepts. In this guide, we've covered some tips and tricks to help you get started with Manim, including choosing the right version to use, installing Manim, creating graphs and tables, and animating your creations. I hope this guide is helpful for the readers, and if you have any questions about this guide, feel free to reach me at kchayanid@gmail.com. I am looking forwards to seeing more cool algorithmic animations !
 
 ## Examples and Turorials!
-- Most of the animations created by our fellow CAs can be viewed 
+- Most of the animations created by our fellow CAs can be viewed [here](CA-created-resources)

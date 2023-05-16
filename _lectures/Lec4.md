@@ -6,6 +6,7 @@ card-link: LecLink4
 # subtitle: And a subtitle
 description: Introduction to non-determinism. We'll talk about how it applies to automata and formalize NFA concepts/definitions.
 people:
+  - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-01-26

@@ -6,6 +6,7 @@ card-link: LecLink21
 # subtitle: And a subtitle
 description: We now delve into the hard (NP-hard) problems and investigate how to prove if a specific problem is NP, NP-hard, etc.
 people:
+  - nicholas
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-04-11

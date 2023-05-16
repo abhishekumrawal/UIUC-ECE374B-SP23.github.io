@@ -6,6 +6,7 @@ card-link: LecLink13
 # subtitle: And a subtitle
 description: "Important one ... even though you probably won't see many instances of dynamic programming in the real world, it is a favorite of FANNG interviews." 
 people:
+  - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-03-02

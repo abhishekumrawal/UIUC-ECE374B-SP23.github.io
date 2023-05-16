@@ -186,7 +186,8 @@ Example: To construct language $R = (ab + c)^{*}$
 
 <h4>Additional Resources</h4>
 
-
+- Check out Mike Montano's [NFA-to-DFA subset construction](/resources/SubsetConstruction) tool to visualize how to convert a NFA to a DFA!
+- Rust has a pretty robust RegEx library and a former 374-er spent some time investigating Rust's procedural macros and how to convert a RegEx to a NFA. It's a super interestign analysis requiring knowledge of grammars and programming paradigms. [Check it out](https://github.com/djohn49/fastregex)
 
 
 

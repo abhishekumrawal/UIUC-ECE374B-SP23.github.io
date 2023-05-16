@@ -6,6 +6,7 @@ card-link: LecLink6
 # subtitle: And a subtitle
 description: Now that we've exhausted regular languages, it's time to move onto larger complexity classes. But first, how do we tell if a language isn't regular? 
 people:
+  - sindhu
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-02-02
@@ -117,10 +118,9 @@ Consider, $L' = L \cap (0^* 1^*)$
 
 If L' is a known non-regular language then it implies that L is non-regular. Why? Suppose L is regular. Then since $(0^* 1^*)$ is regular, and regular languages are closed under intersection, L' also would be regular. But we know L' is not regular, a contradiction. This means that L is also not regular.
 
-<h4>Additional Resources</h4>
+<!-- <h4>Additional Resources</h4>
 
-- [Sariel's Lecture 6](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
-
+-  -->
 
 
 

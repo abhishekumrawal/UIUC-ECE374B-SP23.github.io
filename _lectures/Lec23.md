@@ -6,6 +6,7 @@ card-link: LecLink23
 # subtitle: And a subtitle
 description: Stepping away from algorithms, it is time to ask what problems are not decidable and cannot be solved by a Turing machine. We'll introduced the halting problem.  
 people:
+  - gautham
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-04-18
