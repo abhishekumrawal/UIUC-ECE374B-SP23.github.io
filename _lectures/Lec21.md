@@ -103,7 +103,7 @@ Your very own, Mr. Kevin Lim, did an animation of a classic 374 reduction:
 
 <h4>Additional Resources</h4>
 
-- [Jeff's - Notes on Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf)
+- [Jeff's - Notes on NP-Hardness](https://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf)
 
 - [Sariel's Lecture 21-24](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
