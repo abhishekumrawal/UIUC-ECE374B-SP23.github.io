@@ -19,7 +19,7 @@ link-recording: https://mediaspace.illinois.edu/media/t/1_1bnz6ltr
 #### **Defnition**:
 For a set of boolean variables $x_1,x_2,...,x_n$
 - A literal is either $x_i$ or $\neg x_i$
-- A clause isa disjunction of literals
+- A clause is a disjunction of literals
 
 (i.e. $x_3 \lor \neg x_7 \lor x_8$)
 - Conjunctive normal form (CNF) is a conjunction of causes 
@@ -35,63 +35,64 @@ Example:
 - $(x_1 \lor x_4) \land x_5 \land \neg x_5$ cannot evaluate to true because either $x_5$ or $\neg x_5$ will be false.
 
 #### **Reducing SAT to 3SAT:**
-To reduce from an instance of SAT to an instance of 3SAT all clauses must be made to have exactly 3 literals. To do this dummy variables are introduced such that the original formula is satisfiable if and only if the formula with the dummy variables is satisfiable. To do so short clauses are padded with dummy variables to have 3 literals, long clauses are broken apart using dummy variables to get 3 literals.
+To reduce from an instance of SAT to an instance of 3SAT all clauses must be made to have exactly 3 literals. To do this dummy variables are introduced such that the original formula is satisfiable if and only if the formula with the dummy variables is satisfiable. Short clauses are padded with dummy variables to have 3 literals, long clauses are broken apart using dummy variables to get 3 literals.
 Proof in Prof. Har-Peled's lectures
 
 ### Complexity Classes
 
-<img src="/img/lectures/Lec13/lec13_fibo.png" alt="Fibonacci" style="width: 700px;">
+<img src="/img/lectures/lec21.PNG" alt="lec21.PNG" style="width: 300px;">
 
-#### **Types of Algorithmic Problems**:
-- Decision Problems: Is the input a YES or a NO
+- P: the set of decision problems that have polynomial time algorithms.
+- NP: the set of decision problems that have polynomial time non-deterministic algorithms. Every NP problem has an exponential time deterministic algorithm.
 
-    example: Given a graph $G$, for nodes $s,t$ is there a path from $s$ to $t$ in $G$.
-- Search Problems: Find a solution if the input is a YES
+Problems with no known P solution:
+- Independent Set
+- Vertex Cover
+- Set Cover
+- SAT
 
-    example: Given a graph $G$, for nodes $s,t$ find a path from $s$ to $t$ in $G$.
-- Optimization Probelm: Find the best solution if the input is a YES
+#### **Certifier:**
+An algorithm $C(\cdot,\cdot)$ is a certifier for a problem $X$ if
+- For every $s\in X$ there is some string $t$ such that $C(s,t)$ = "yes"
+- If $s\not\in X$ then $C(s,t)$ = "no" for every $t$
 
-    example: Given a graph $G$, for nodes $s,t$ find the shortest path from $s$ to $t$ in $G$.
+The string $s$ is the problem instance (i.e. a particular graph for vertex cover problem, a CNF formula for SAT problem). The string $t$ is called the certificate or proof for $s$.
 
-#### **Analysis of Algorithmic Problems**:
-- Does the algorithm correctly solve the problem.
-- What is the asymptotic worst-case running time of the algorithm.
-- What is the asymptotic worst-case space used by the algorithm.
+#### **Efficient Certifier:**
+A certifier $C$ is an efficient certifier for problem $X$ if there is a polynomial $p(\cdot)$ such that 
+- For every $s \in X$ there is some string $t$ such that $C(s,t)$ = yes and $|t| \leq p(|s|)$
+- If $s\not\in X$ then $C(s,t)$ = "no" for every $t$
+- $C(\cdot,\cdot)$ runs in polynomial time
 
-An algorthim has an asymptotic running time of $O(f(n))$ if for every input of size $n$ the algorithm terminates after $O(f(n))$ promitive steps.
-
-### Reductions
-A reduction from problem $A$ to problem $B$ is formatting problem $A$ in terms of problem $B$. The algorithm for $A$ uses the algorithm for $B$ as a black box.
-
-example: Given an array $A$ of n integers, are there any duplicates in $A$.
-
-Solving directly by comparing every element to every other element takes $O(n^2)$ running time. If we sort the array first then elements only need to be compared to adjacent elements which takes total $O(n log(n))$ running time. This is a reduction of the duplicate elements problem into the sorting problem when we use the sorting algorithm as a black box.
-
-#### **Types of Reductions**:
-Given 2 problems $C$ and $D$ where problem $C$ reduces to problem $D$
-- Positive Direction: Constructing an algorithm for $C$ implies a constrution of an  algorithm for $D$. 
-- Negative Direction: If the reduction from problem $C$ to problem $D$ **is** "efficient". Assuming there **is no** "efficient" alogrithm for $C$ implies there **is no** "efficient" algorithm for $D$
-
-
-### Recursions
-A recursion is a special case of reduction where the problem is reduced to a "smaller" instance of itself.
-
-example: Tower of Hanoi, moving a tower of size $n$ from peg $0$ to peg $2$.
-
-The problem can be generalized to move a tower of size $m$ from peg $x$ to peg $y$. Then the problem of moving a tower of size $n$ from peg 0 to peg 2 can be viewed as moving a tower of size $n-1$ from peg 0 to peg 1, then moving the bottom disk to peg 2, and finally moving the tower of size $n-1$ from peg 1 to peg 2. Therefore a general algorithm that moves a tower of size $m$ from peg $x$ to peg $y$ can be recursively implemented as the ordering/ labeling of the pegs does not impact the problem.
-
-#### **Running Time Analysis**:
-- Recursion Tree: A recurrence relation can be viewed as tree which splits at a node based on the integer constant that multiplies the recurrent function. Then the running time can be computed by looking at the running time contributed by each layer in the tree.
-
-example: $T(n) = 2T(n/2)+cn$ split into 2 after each node but the running time contributed by each split is $cn/2$. This results in a constant amount of work done at each level. The total running time is the sum of the running times for each level. Because $n$ divides by 2 each time, there are $log(n)$ levels. This results in a total running time of $O(nlog(n))$.
-
-<img src="/img/lectures/Lec10/lec10_fig1.PNG" alt="Example3" style="height: 150px;">
-
-- Expanding the Recurrence: Expanding the recurrence is done by replacing the recurrent function on the right side of the equation the right hand side of the equation for the smaller case.
-
-example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 4T(n/4)+cn+cn$. This replacement can occur $log(n)$ times because $n$ divides by 2 each time. Every time the replacement occurs an extra $cn$ is added. This means the eventual expansion will be $T(n) = cn+...cn = cnlog(n)$ which has a running time of $O(nlog(n))$.
+Example:
+- Problem: Does $G = (V,E)$ have an independent set of size $\geq k$?
+  - Certificate: Set $S \subset V$
+  - Certifier: Check $|S|\geq k$ and no pair of vertices in $S$ is connected by an edge ( $O(n^2)$ )
+- Problem: Does CNF formula $\phi$ have a satisfying assignment?
+  - Certificate: Assignment $a$ 0/1 values to each variable.
+  - Certifier: Check each clause under $a$ and return "yes" if all clauses are true ( $O(n)$ )
 
 
+### Cook-Levin Theorem
+
+#### **NP-Hard:**
+A problem $X$ is NP-Hard if for any $Y \in$ NP, $Y \leq_P X$
+
+#### **NP-Complete:**
+A problem $X$ is NP-Complete if $X$ is both NP and NP-Hard
+
+#### **Lemma:**
+Suppose $X$ is NP-Complete. Then $X$ can be solved in polynomial time if and only if P=NP
+
+#### **Theorem (Cook-Levin):**
+SAT is NP-Complete
+
+SAT $\leq_P X$ implies that every NP problem $Y\leq_P X$. $Y\leq_P$ SAT (Cook-Levin) and SAT $\leq_P X$ implies $Y\leq_P X$.
+
+Example NP-Hard reductions in the lecture slides
+- Independent Set (slides 34-38)
+- Graph Coloring (slides 39-41)
+- Hamiltonian Cycle (slide 42)
 
 <h4> Reductions example </h4>
 
@@ -102,6 +103,9 @@ Your very own, Mr. Kevin Lim, did an animation of a classic 374 reduction:
 
 <h4>Additional Resources</h4>
 
+- [Jeff's - Notes on Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf)
+
+- [Sariel's Lecture 21-24](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 
