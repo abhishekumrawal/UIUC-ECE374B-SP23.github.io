@@ -4,7 +4,7 @@ placeholder: false
 back-color: f4fafa
 card-link: LabLink1
 # subtitle: And a subtitle
-description: Recursive definitions and regular expressions.  
+description: Some quick problem involving recursive definitions and regular expressions.  
 people:
 layout: post
 no-link: true  # stops link to page 

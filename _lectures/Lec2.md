@@ -6,6 +6,7 @@ card-link: LecLink2
 # subtitle: And a subtitle
 description: We'll discuss regular languages and representing them as regular expressions (the OG RegEx). 
 people:
+  - kani
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-01-19

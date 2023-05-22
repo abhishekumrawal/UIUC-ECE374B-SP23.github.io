@@ -36,7 +36,7 @@ This course is focused on answering three big questions:
 
 &nbsp;
 #### Why Languages? 
-Problems need to be represented as languages to be comparable. A language is a set of strings and each string represents and *instance* of the problem (a specific set of inputs and their correponding output). For example, the problem of adding two numbers together can be represented by the language: 
+Problems need to be represented as languages to be comparable. A language is a set of strings and each string represents and *instance* of the problem (a specific set of inputs and their corresponding output). For example, the problem of adding two numbers together can be represented by the language: 
 
 **Problem:** Multiplying two integers together               
 
@@ -54,7 +54,7 @@ $$L_{MULT2} =
 You would think that after talking for 1.25 hours, what else could there be to say. Well my friends, there is so much to know and by extension, just as must to teach! This is what I forgot to mention today. 
 
 ###### Group homeworks
-Homeworks can be completed in groups of at most **three students** as discussed in the [homework policies](https://ecealgo.com/homeworks.html). Ideally, the way it should work is that each individual in a group looks at all the problems and comes up with some quick notes on possible solutions. Then the group would come together and attempt to reach a consensus on each problem. Finally, the solution writing and presentation would be divvyed up between the members so alleviate some of the presentation burden. However, I personally am conflicted on group work: 
+Homeworks can be completed in groups of at most **three students** as discussed in the [homework policies](https://ecealgo.com/homeworks.html). Ideally, the way it should work is that each individual in a group looks at all the problems and comes up with some quick notes on possible solutions. Then the group would come together and attempt to reach a consensus on each problem. Finally, the solution writing and presentation would be divvied up between the members so alleviate some of the presentation burden. However, I personally am conflicted on group work: 
 
 - **Positive:** If done correctly, it can be a powerful way where students learn from and bounce ideas off one-another. That is definitely a good thing. 
 - **Negative:** Since this is my sixth time doing this course, I believe about half the groups simply divvy up the problems and don't even look at the problems not assigned to them. I've done a bit of analysis on past semesters where I've had a exam problem that was nearly identical to a homework problem and consistently, there's been about 25-30% of students that clearly have never seen the problem before. 

@@ -6,6 +6,7 @@ card-link: LecLink4
 # subtitle: And a subtitle
 description: Introduction to non-determinism. We'll talk about how it applies to automata and formalize NFA concepts/definitions.
 people:
+  - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-01-26
@@ -127,7 +128,20 @@ Note that defining the extended transition function does not change the behavior
 The extended transition function is more like a syntactic sugar derived from the original transition function. 
 
 
+<h4> Transformation </h4>
+
+In the lab you went (will go) over language transformation. A language transformation is an operation on a language to transform it into a new language. An example is the language: 
+
+$$Flip(L) = \{\overline{w} \vert w \in L, \Sigma = \{0,1\)\}$$
+
+The transformation to turn a language $$L$$ into a new language $$Flip(L)$$ is pretty simple since all you'd need to do is take the DFA that describes $$L$$ and change the $$0$$-transitions to $$1$$-transitions and vice-versa. 
+
+What we want to ask with language transformations is if these operations change the complexity class of the resulting language. We want to know if the input language(s) is(are) regular, is there a  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PuZFHpmOotQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 &nbsp;
 <h4>Additional Resources</h4>
 - [Jeff's - Notes on non-deterministic automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/04-nfa.pdf)
 - [Sariel's Lecture 2](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+- [A video by Kevin Lim on language transformations](https://www.youtube.com/watch?v=PuZFHpmOotQ) 

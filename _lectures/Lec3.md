@@ -6,6 +6,7 @@ card-link: LecLink3
 # subtitle: And a subtitle
 description: Introduction to deterministic finite automata. We'll also discuss how to use DFAs to prove closure properties.
 people:
+  - nicholas
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-01-24
